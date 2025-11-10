@@ -1,14 +1,2170 @@
 {
-  "cabecalho": "Laudo de Radiografia(s) {exames}.",
-  "estrutura": {
-    "titulo": true,
-    "analise_diagnostica": true,
-    "nota_correcao": true,
-    "bloco_recomendacao": true
-  },
-  "templates": {
-    "F_base": "{localizacao} {achado}. Achados compatíveis com {impressao}. {recomendacao}",
-    "F_implante_82": "No dente {dente} observa-se implante com perda óssea marginal {grau}. {conclusao}.",
-    "F_endodontia": "No dente {dente} observa-se conduto obturado adequadamente, sem rarefações associadas. Recomenda-se proservação."
-  }
+  "versao": "1.2.0",
+  "idioma": "pt-BR",
+  "itens": [
+    {
+      "codigos": [
+        1
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1",
+        "E2",
+        "E3",
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No dente {dente},",
+          "achado": "observa-se uma imagem radiolúcida com contornos irregulares, localizada na superfície coronária ou adjacente à dentina, sugerindo processo de desmineralização tecidual.",
+          "impressao": "Os achados radiográficos são compatíveis com lesão cariosa, considerando a extensão observada e possíveis superposições anatômicas.",
+          "recomendacao": "Recomenda-se uma avaliação clínica detalhada para confirmação da extensão da lesão e planejamento restaurador, incluindo testes de vitalidade pulpar e consideração de fatores etiológicos como higiene oral."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        2,
+        103
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E2",
+        "E3",
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na região interproximal do dente {dente},",
+          "achado": "identifica-se uma discreta radiolucidez restrita à camada de esmalte, sem evidência aparente de envolvimento dentinário ou progressão profunda.",
+          "impressao": "Os achados são compatíveis com cárie incipiente, diferenciando-se de possíveis artefatos como sombras ou superposições.",
+          "recomendacao": "Sugere-se avaliação clínica com auxílio de transiluminação para monitoramento preventivo, considerando opções como selamento ou infiltração resinoosa de acordo com o critério do cirurgião-dentista."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        3
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E2",
+        "E3",
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No dente {dente},",
+          "achado": "evidencia-se uma radiolucidez sutil confinada ao esmalte dentário, com interpretação duvidosa possivelmente relacionada a sombras ou superposições anatômicas.",
+          "impressao": "Os achados são sugestivos de desmineralização de esmalte, requerendo diferenciação de lesões incipientes ou artefatos radiográficos.",
+          "recomendacao": "Recomenda-se uma avaliação clínica criteriosa, complementada por controle radiográfico interproximal seriado se necessário, para monitoramento da progressão e planejamento preventivo."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        4
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No dente {dente},",
+          "achado": "observa-se material restaurador apresentando descontinuidade na interface com o dente, caracterizada por excesso, falta ou desadaptação marginal evidente.",
+          "impressao": "Os achados são compatíveis com falha na adaptação marginal da restauração ou coroa, potencialmente associada a infiltrações ou instabilidade estrutural.",
+          "recomendacao": "Indica-se uma avaliação clínica minuciosa para verificar a integridade da restauração, com possibilidade de substituição ou ajuste, considerando fatores oclusais e higiênicos."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        5
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No dente {dente},",
+          "achado": "nota-se radiolucidez na interface entre o dente e o material restaurador, indicando possível progressão de desmineralização adjacente.",
+          "impressao": "Os achados são compatíveis com recidiva de cárie (cárie secundária), diferenciando-se de artefatos como forramentos radiolúcidos.",
+          "recomendacao": "Recomenda-se avaliação clínica e planejamento restaurador, com controle radiográfico seriado para monitorar a extensão e evitar complicações pulpares."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        6,
+        61
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No dente {dente},",
+          "achado": "identifica-se radiolucidez bem delimitada associada ao material restaurador, localizada em proximidade com a câmara pulpar, sem sinais evidentes de irregularidade.",
+          "impressao": "Os achados são compatíveis com forramento radiolúcido; no entanto, pela natureza complementar do exame radiográfico, não se descarta a hipótese de processo cariogênico subjacente.",
+          "recomendacao": "Recomenda-se avaliação clínica detalhada, incluindo teste de vitalidade pulpar quando aplicável, para confirmar a ausência de cárie e planejar intervenções preventivas."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        7
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No dente {dente},",
+          "achado": "observa-se material restaurador radiopaco com contornos regulares e adaptação marginal aparente, sem descontinuidades visíveis.",
+          "impressao": "Os achados são compatíveis com restauração ou coroa metálica/plástica em aspecto de normalidade, considerando as limitações radiográficas.",
+          "recomendacao": "Sugere-se proservação clínica periódica para monitoramento de integridade e detecção precoce de eventuais recidivas."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        8
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na região do dente {dente},",
+          "achado": "não se observa a presença de elemento dentário, com possível reabsorção alveolar associada.",
+          "impressao": "Os achados radiográficos são compatíveis com dente ausente, diferenciando-se de agenesia ou retenção ectópica mediante histórico clínico.",
+          "recomendacao": "Recomenda-se avaliação clínica para planejamento reabilitador, considerando opções protéticas ou implantares com base na condição óssea."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        9
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1",
+        "E2"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No dente {dente},",
+          "achado": "observa-se material obturador radicular bem condensado lateralmente, alcançando aproximadamente 1-2 mm do ápice radicular sem evidência de vazios.",
+          "impressao": "Os achados são compatíveis com conduto obturado adequadamente, indicando sucesso técnico no tratamento endodôntico.",
+          "recomendacao": "Sugere-se proservação endodôntica periódica com controles radiográficos para monitoramento de remissão periapical e prevenção de complicações."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        10
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1",
+        "E2"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No dente {dente},",
+          "achado": "nota-se material obturador radicular mal condensado ou posicionado aquém do ápice radicular (distância superior a 2 mm), com possíveis vazios laterais.",
+          "impressao": "Os achados são compatíveis com conduto parcialmente obturado, sugerindo inadequação técnica no tratamento endodôntico.",
+          "recomendacao": "Recomenda-se avaliação endodôntica especializada para planejamento de retratamento, considerando riscos de infecção persistente."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        11
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1",
+        "E2"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No dente {dente},",
+          "achado": "identifica-se material obturador extravasado além do ápice radicular ou lateralmente à raiz, com possível reação tecidual associada.",
+          "impressao": "Os achados são compatíveis com extravasamento de material obturador, potencialmente relacionado a sobreinstrumentação ou técnica inadequada.",
+          "recomendacao": "Sugere-se avaliação clínica e proservação radiográfica para monitoramento de reações inflamatórias, com consideração de intervenção cirúrgica se sintomático."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        12
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1",
+        "E2"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na região periapical do dente {dente},",
+          "achado": "observa-se rarefação óssea difusa sem limites bem definidos, possivelmente associada a processos inflamatórios ou infecciosos.",
+          "impressao": "Os achados são sugestivos de abscesso periapical, diferenciando-se de granulomas ou cistos mediante extensão e características clínicas.",
+          "recomendacao": "Recomenda-se avaliação endodôntica urgente, com correlação clínica para drenagem ou terapia antibiótica, e controle radiográfico subsequente."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        13
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1",
+        "E2"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na região periapical do dente {dente},",
+          "achado": "evidencia-se rarefação óssea circunscrita com limites definidos, medindo menos de 0.5 cm em seus diâmetros maiores.",
+          "impressao": "Os achados são sugestivos de granuloma periapical, com possível origem em cárie, trauma ou tratamento endodôntico prévio.",
+          "recomendacao": "Sugere-se tratamento endodôntico convencional ou retratamento, com proservação radiográfica para avaliar remissão da lesão."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        14
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1",
+        "E2"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na região periapical do dente {dente},",
+          "achado": "observa-se rarefação óssea circunscrita com limites bem definidos, indicando possível expansão lesional.",
+          "impressao": "Os achados são sugestivos de cisto periapical, associado a processos inflamatórios crônicos ou residuais.",
+          "recomendacao": "Recomenda-se avaliação cirúrgica com análise histopatológica para confirmação diagnóstica e planejamento terapêutico adequado."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        15
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1",
+        "E2"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na raiz do dente {dente},",
+          "achado": "nota-se radiolucidez interna destruindo os contornos habituais da raiz e do canal radicular, com possível origem pulpar.",
+          "impressao": "Os achados são compatíveis com reabsorção radicular interna, frequentemente relacionada a traumas ou tratamentos endodônticos inadequados.",
+          "recomendacao": "Sugere-se intervenção endodôntica imediata para estabilização, com monitoramento radiográfico seriado para avaliar progressão."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        16
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1",
+        "E2"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na raiz do dente {dente},",
+          "achado": "identifica-se radiolucidez externa nos terços apical e médio, alterando os contornos radiculares normais.",
+          "impressao": "Os achados são compatíveis com reabsorção radicular externa, possivelmente decorrente de forças ortodônticas ou traumatismos.",
+          "recomendacao": "Recomenda-se suspensão de forças oclusais e avaliação multidisciplinar para planejamento de estabilização ou exodontia."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        17
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na coroa do dente {dente},",
+          "achado": "observa-se radiolucidez interna destruindo os contornos da coroa e câmara pulpar, com possível envolvimento pulpar.",
+          "impressao": "Os achados são compatíveis com reabsorção coronária interna, associada a fatores traumáticos ou inflamatórios.",
+          "recomendacao": "Sugere-se avaliação endodôntica e restauradora para contenção da lesão, com ênfase em prevenção de fraturas coronárias."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        18
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1",
+        "E2"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No dente {dente},",
+          "achado": "evidencia-se aumento do espaço pericementário ao redor da raiz, com possível espessamento da lâmina dura.",
+          "impressao": "Os achados são sugestivos de alteração pericementária, potencialmente relacionada a sobrecarga oclusal ou processos inflamatórios.",
+          "recomendacao": "Recomenda-se correlação clínica com histórico de trauma ou endodontia, incluindo ajustes oclusais e monitoramento radiográfico."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        19
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na região {localizacao_livre},",
+          "achado": "{achado_livre}, considerando as características radiográficas observadas e possíveis superposições.",
+          "impressao": "{impressao_livre}, com necessidade de diferenciação clínica para confirmação.",
+          "recomendacao": "{recomendacao_livre}, incluindo avaliação multidisciplinar se indicado."
+        },
+        "placeholders": [
+          "{localizacao_livre}",
+          "{achado_livre}",
+          "{impressao_livre}",
+          "{recomendacao_livre}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        20
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na região {localizacao_livre},",
+          "achado": "{achado_livre}, com detalhes morfológicos que sugerem variação anatômica ou patológica.",
+          "impressao": "{impressao_livre}, requerendo correlação com exames complementares.",
+          "recomendacao": "{recomendacao_livre}, priorizando monitoramento conservador."
+        },
+        "placeholders": [
+          "{localizacao_livre}",
+          "{achado_livre}",
+          "{impressao_livre}",
+          "{recomendacao_livre}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        21
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na região do dente {dente},",
+          "achado": "não se observa formação ou presença de elemento dentário, com arcada compatível com ausência congênita.",
+          "impressao": "Os achados são compatíveis com agenesia dentária, diferenciando-se de ausências adquiridas mediante histórico.",
+          "recomendacao": "Sugere-se avaliação ortodôntica para planejamento reabilitador, considerando impactos funcionais e estéticos na oclusão."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        22
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1",
+        "E2"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No ápice radicular do dente {dente},",
+          "achado": "observa-se arredondamento discreto do contorno apical, sem evidência de rarefação associada.",
+          "impressao": "Os achados são compatíveis com arredondamento apical, comumente relacionado a forças ortodônticas ou oclusais.",
+          "recomendacao": "Recomenda-se monitoramento ortodôntico periódico para avaliar estabilidade radicular e prevenção de reabsorções adicionais."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        24
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Nos dentes {dentes},",
+          "achado": "observa-se estrutura radiopaca fixada às coroas dentárias, compatível com brackets e fios.",
+          "impressao": "Os achados são compatíveis com aparelho ortodôntico instalado, sem evidências de complicações radiográficas imediatas.",
+          "recomendacao": "Recomenda-se acompanhamento ortodôntico regular para ajuste e monitoramento de movimentação dentária, com atenção a higiene para prevenir cáries."
+        },
+        "placeholders": [
+          "{dentes}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        25
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1",
+        "E2"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na raiz do dente {dente},",
+          "achado": "nota-se corte apical radicular, possivelmente associado a tratamento endodôntico prévio.",
+          "impressao": "Os achados são compatíveis com apicectomia, indicando intervenção cirúrgica para remoção de lesão apical.",
+          "recomendacao": "Sugere-se proservação endodôntica com controles radiográficos para avaliar cicatrização e ausência de recidiva."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        26
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1",
+        "E2"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na raiz do dente {dente},",
+          "achado": "evidencia-se corte apical com presença de material obturador retrógrado, como amálgama.",
+          "impressao": "Os achados são compatíveis com apicectomia associada a obturação retrógrada, visando selamento apical.",
+          "recomendacao": "Recomenda-se monitoramento clínico e radiográfico para confirmação de sucesso terapêutico e detecção de complicações."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        27
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na região dos dentes {dentes},",
+          "achado": "observa-se sobreposição dentária significativa, alterando o alinhamento arcada normal.",
+          "impressao": "Os achados são compatíveis com apinhamento dentário, com potencial impacto na higiene e oclusão.",
+          "recomendacao": "Sugere-se avaliação ortodôntica para planejamento de correção, considerando extrações ou expansão arcada."
+        },
+        "placeholders": [
+          "{dentes}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        28
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na região do dente {dente},",
+          "achado": "não se observam alterações radiográficas evidentes, com estruturas dentárias e ósseas preservadas.",
+          "impressao": "Os achados são compatíveis com aspecto radiográfico normal, sem sinais de patologias detectáveis.",
+          "recomendacao": "Recomenda-se correlação clínica para exclusão de condições não visíveis radiograficamente, com proservação preventiva."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        29
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No dente {dente},",
+          "achado": "identifica-se desgaste nas faces incisais ou terços cervicais, alterando a morfologia dentária habitual.",
+          "impressao": "Os achados são sugestivos de atrição ou abrasão dentária, possivelmente relacionada a hábitos parafuncionais ou escovação inadequada.",
+          "recomendacao": "Sugere-se avaliação oclusal e restauradora para proteção dentária, incluindo uso de placas mio-relaxantes se indicado."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        30
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na cavidade nasal {regiao},",
+          "achado": "observa-se aumento volumétrico do corneto, com possível impacto na permeabilidade das vias aéreas.",
+          "impressao": "Os achados são compatíveis com aumento do corneto nasal, sugerindo obstrução ou inflamação associada.",
+          "recomendacao": "Recomenda-se referência a otorrinolaringologista para avaliação funcional e tratamento, correlacionando com sintomas respiratórios."
+        },
+        "placeholders": [
+          "{regiao}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        31
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1",
+        "E2"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na região pericoronária do dente {dente},",
+          "achado": "nota-se aumento do espaço pericoronário superior a 0.5 cm, com possível acúmulo de debris.",
+          "impressao": "Os achados são sugestivos de pericoronarite, associada a dentes parcialmente erupcionados.",
+          "recomendacao": "Sugere-se avaliação clínica para higiene local e consideração de exodontia, com antibioticoterapia se infecção presente."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        32
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1",
+        "E2"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No dente {dente} retido,",
+          "achado": "evidencia-se folículo de erupção aumentado além de 0.5 cm, indicando possível retenção prolongada.",
+          "impressao": "Os achados são compatíveis com aumento do folículo de erupção, diferenciando-se de cistos foliculares.",
+          "recomendacao": "Recomenda-se monitoramento radiográfico ou intervenção cirúrgica para facilitar erupção ou remoção."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        33
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Associado ao dente {dente},",
+          "achado": "observa-se imagem radiopaca na região gengival, compatível com depósitos mineralizados.",
+          "impressao": "Os achados são sugestivos de cálculo sub ou supra gengival, contribuindo para doença periodontal.",
+          "recomendacao": "Sugere-se remoção profissional por raspagem periodontal, com ênfase em higiene oral para prevenção de recidivas."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        35
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1",
+        "E2"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na região periapical do dente {dente},",
+          "achado": "nota-se evidência de reparação óssea, com preenchimento gradual da área radiolúcida prévia.",
+          "impressao": "Os achados são compatíveis com cicatriz ou reparação óssea pós-tratamento, indicando sucesso terapêutico.",
+          "recomendacao": "Sugere-se proservação com comparações radiográficas anteriores para confirmar remissão completa da lesão."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        36
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No dente {dente},",
+          "achado": "observa-se anomalia morfológica com união ou duplicação de estruturas dentárias.",
+          "impressao": "Os achados são sugestivos de concrescência, fusão ou geminação, requerendo laudo explicativo detalhado.",
+          "recomendacao": "Recomenda-se avaliação multidisciplinar para planejamento funcional e estético, com consideração de intervenções cirúrgicas se necessário."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        37
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na região óssea {regiao},",
+          "achado": "identifica-se área de osso radiopaco condensado, sem características de tórus ou sialolito.",
+          "impressao": "Os achados são compatíveis com condensação óssea, possivelmente reativa ou idiopática.",
+          "recomendacao": "Sugere-se diferenciação clínica e monitoramento para exclusão de patologias associadas."
+        },
+        "placeholders": [
+          "{regiao}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        38
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Nos dentes 33 a 43,",
+          "achado": "evidencia-se estrutura radiopaca metálica linear ou ondulada, fixada aos dentes.",
+          "impressao": "Os achados são compatíveis com contenção ortodôntica pós-tratamento, para manutenção de alinhamento.",
+          "recomendacao": "Recomenda-se proservação ortodôntica periódica para verificação de integridade e higiene."
+        },
+        "placeholders": []
+      }
+    },
+    {
+      "codigos": [
+        39
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na mandíbula ou maxila,",
+          "achado": "observa-se estrutura radiopaca metálica com parafusos, indicando fixação pós-cirúrgica.",
+          "impressao": "Os achados são compatíveis com contenção pós-cirúrgica, associada a traumatismos ou cirurgias ortognáticas.",
+          "recomendacao": "Sugere-se correlação com histórico cirúrgico e monitoramento para remoção se estável."
+        },
+        "placeholders": []
+      }
+    },
+    {
+      "codigos": [
+        40
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na região {regiao} maxilofacial,",
+          "achado": "nota-se imagem radiopaca de alta densidade com aspecto metálico, isolada ou múltipla.",
+          "impressao": "Os achados são sugestivos de corpo estranho metálico, possivelmente tatuagem por amálgama ou fragmento externo.",
+          "recomendacao": "Recomenda-se remoção cirúrgica se sintomático ou esteticamente relevante, com avaliação histopatológica."
+        },
+        "placeholders": [
+          "{regiao}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        41
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na região {regiao} maxilofacial,",
+          "achado": "identifica-se imagem radiopaca de baixa densidade, compatível com material não-metálico.",
+          "impressao": "Os achados são sugestivos de corpo estranho não-metálico, como vidro ou resina fragmentada.",
+          "recomendacao": "Sugere-se investigação clínica para remoção, considerando riscos de infecção ou reação tecidual."
+        },
+        "placeholders": [
+          "{regiao}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        42
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No dente {dente} erupcionado ou retido,",
+          "achado": "observa-se angulação para distal, alterando o posicionamento habitual na arcada.",
+          "impressao": "Os achados são compatíveis com dente angulado distal, com potencial impacto na oclusão.",
+          "recomendacao": "Recomenda-se avaliação ortodôntica para correção, com consideração de movimentação controlada."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        43
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No dente {dente} erupcionado ou retido,",
+          "achado": "evidencia-se angulação para mesial, com possível compressão de estruturas adjacentes.",
+          "impressao": "Os achados são compatíveis com dente angulado mesial, frequentemente associado a crowding.",
+          "recomendacao": "Sugere-se planejamento ortodôntico para realinhamento, incluindo extrações se espaço insuficiente."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        44
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No dente {dente} em erupção,",
+          "achado": "nota-se eixo de erupção inclinado para distal, com risco de impacto em dentes vizinhos.",
+          "impressao": "Os achados são sugestivos de eixo de erupção distal alterado, possivelmente congênito ou adquirido.",
+          "recomendacao": "Recomenda-se monitoramento erupcional com intervenções ortodônticas precoces para guiar a erupção."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        45
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No dente {dente} em erupção,",
+          "achado": "observa-se eixo de erupção inclinado para mesial, potencialmente levando a sobreposição.",
+          "impressao": "Os achados são compatíveis com eixo de erupção mesial alterado, com implicações oclusais.",
+          "recomendacao": "Sugere-se avaliação ortodôntica para correção precoce e prevenção de maloclusões."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        46
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E4"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No dente {dente},",
+          "achado": "identifica-se inclinação para lingual, confirmada por técnica oclusal ou de localização.",
+          "impressao": "Os achados são sugestivos de inclinação lingual, afetando o posicionamento tridimensional.",
+          "recomendacao": "Recomenda-se planejamento ortodôntico com uso de aparelhos para realinhamento vestibular."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        47
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E4"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No dente {dente},",
+          "achado": "evidencia-se inclinação para vestibular, observada em vistas oclusais.",
+          "impressao": "Os achados são compatíveis com inclinação vestibular, com riscos estéticos e funcionais.",
+          "recomendacao": "Sugere-se correção ortodôntica para reposicionamento lingual e equilíbrio oclusal."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        48
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No dente {dente},",
+          "achado": "nota-se posicionamento fora do arco alveolar habitual, em estrutura óssea atípica.",
+          "impressao": "Os achados são sugestivos de posição ectópica, possivelmente congênita ou migratória.",
+          "recomendacao": "Recomenda-se planejamento cirúrgico-ortodôntico para reposicionamento ou exodontia, com tomografia para avaliação 3D."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        49
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No dente {dente},",
+          "achado": "observa-se morfologia em forma de cone, com redução dimensional coronária e radicular.",
+          "impressao": "Os achados são compatíveis com dente conóide, uma variação anatômica comum em laterais superiores.",
+          "recomendacao": "Sugere-se avaliação estética e funcional para restaurações ou próteses, considerando impactos na oclusão."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        50
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No dente decíduo {dente},",
+          "achado": "identifica-se retenção no arco permanente, sem erupção do sucessor.",
+          "impressao": "Os achados são compatíveis com dente decíduo mantido, possivelmente devido a agenesia ou retenção do permanente.",
+          "recomendacao": "Recomenda-se investigação radiográfica complementar para planejamento ortodôntico ou exodontia."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        51
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No dente permanente {dente},",
+          "achado": "evidencia-se raiz formada em apenas um ou dois terços, com retenção observada.",
+          "impressao": "Os achados são compatíveis com dente em desenvolvimento, típico em fases infantis ou adultas precoces.",
+          "recomendacao": "Sugere-se monitoramento radiográfico seriado para acompanhar rizogênese e planejamento erupcional."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        52
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No dente permanente {dente},",
+          "achado": "nota-se raiz formada em dois terços, em processo ativo de erupção sem dente decíduo antagonista.",
+          "impressao": "Os achados são sugestivos de dente em erupção, com cronologia compatível ou atrasada.",
+          "recomendacao": "Recomenda-se proservação clínica para guiar erupção e evitar complicações oclusais."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        53
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No dente {dente},",
+          "achado": "observa-se retenção completa ou parcial, com impacto em estruturas adjacentes.",
+          "impressao": "Os achados são compatíveis com dente retido ou impactado, frequentemente em terceiros molares.",
+          "recomendacao": "Sugere-se planejamento exodôntico cirúrgico, com tomografia para avaliação de riscos neurossensoriais."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        54
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na região {regiao},",
+          "achado": "identifica-se elemento dentário adicional além da dentadura normal.",
+          "impressao": "Os achados são sugestivos de dente supranumerário, com potencial para displasias oclusais.",
+          "recomendacao": "Recomenda-se exodontia ou monitoramento, dependendo da posição e impacto funcional."
+        },
+        "placeholders": [
+          "{regiao}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        55
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na coroa do dente {dente},",
+          "achado": "evidencia-se destruição parcial, com perda de estrutura dentária sem comprometimento total.",
+          "impressao": "Os achados são compatíveis com destruição parcial da coroa, diferenciando-se de cáries extensas.",
+          "recomendacao": "Sugere-se restauração conservadora ou endodontia, com ênfase em etiologia traumática ou cariogênica."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        56
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No dente {dente},",
+          "achado": "nota-se ausência completa de estrutura coronária, com raiz preservada.",
+          "impressao": "Os achados são sugestivos de destruição total da coroa, possivelmente por trauma ou cárie avançada.",
+          "recomendacao": "Recomenda-se avaliação para exodontia, implante ou prótese, considerando condição radicular."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        57
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No septo nasal,",
+          "achado": "observa-se desvio curvo da linha óssea septal, alterando a simetria das cavidades nasais.",
+          "impressao": "Os achados são compatíveis com desvio de septo nasal, com potencial impacto respiratório.",
+          "recomendacao": "Sugere-se referência otorrinolaringológica para avaliação funcional e cirúrgica se sintomático."
+        },
+        "placeholders": []
+      }
+    },
+    {
+      "codigos": [
+        58
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na região óssea {regiao},",
+          "achado": "evidencia-se área de osso esclerótico radiopaco, sem sinais de expansão lesional.",
+          "impressao": "Os achados são sugestivos de esclerose óssea, possivelmente idiopática ou reativa.",
+          "recomendacao": "Recomenda-se monitoramento para diferenciação de condensações ou patologias ósseas associadas."
+        },
+        "placeholders": [
+          "{regiao}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        59
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No dente {dente},",
+          "achado": "identifica-se posicionamento acima do plano oclusal, frequentemente sem antagonista.",
+          "impressao": "Os achados são compatíveis com extrusão dentária, com implicações oclusais e estéticas.",
+          "recomendacao": "Sugere-se ajuste oclusal ou reabilitação para restabelecer equilíbrio mastigatório."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        60
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No seio maxilar {regiao},",
+          "achado": "nota-se imagem radiopaca em forma de cúpula, indicando retenção mucosa.",
+          "impressao": "Os achados são sugestivos de fenômeno de retenção de muco, diferenciando-se de pólipos ou sinusite.",
+          "recomendacao": "Recomenda-se avaliação sinusal por otorrinolaringologista para drenagem ou tratamento etiológico."
+        },
+        "placeholders": [
+          "{regiao}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        62
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na coroa ou raiz do dente {dente},",
+          "achado": "observa-se linha radiolúcida contínua, indicando descontinuidade estrutural.",
+          "impressao": "Os achados são sugestivos de fratura dentária, com possível origem traumática.",
+          "recomendacao": "Sugere-se imobilização imediata e avaliação endodôntica para preservação vital ou exodontia."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        63
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na região {regiao} da mandíbula ou maxila,",
+          "achado": "evidencia-se linha(s) radiolúcida(s) com ou sem sequestros ósseos, alterando a continuidade óssea.",
+          "impressao": "Os achados são compatíveis com fratura óssea, requerendo classificação quanto a estabilidade.",
+          "recomendacao": "Recomenda-se redução e fixação cirúrgica urgente, com proservação para consolidação óssea."
+        },
+        "placeholders": [
+          "{regiao}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        64
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No dente {dente},",
+          "achado": "nota-se rotação angular do elemento, alterando o alinhamento axial.",
+          "impressao": "Os achados são sugestivos de giroversão, com impactos na estética e função oclusal.",
+          "recomendacao": "Sugere-se correção ortodôntica para reposicionamento, com monitoramento de estabilidade."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        65
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1",
+        "E2"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na raiz do dente {dente},",
+          "achado": "identifica-se aumento do volume radicular nos terços apical e médio, com contornos irregulares.",
+          "impressao": "Os achados são compatíveis com hipercementose, possivelmente reativa a inflamação ou sobrecarga.",
+          "recomendacao": "Recomenda-se avaliação endodôntica se planejamento exodôntico, devido a dificuldade técnica."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        66
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na região {regiao},",
+          "achado": "observa-se imagem radiolúcida não classificada em dentes ou ossos, sem correspondência com diagnósticos padrão.",
+          "impressao": "Os achados são compatíveis com imagem radiolúcida indeterminada, requerendo diferenciação de lesões ou artefatos.",
+          "recomendacao": "Sugere-se exames complementares como tomografia para elucidação e planejamento diagnóstico."
+        },
+        "placeholders": [
+          "{regiao}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        67
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1",
+        "E2"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na furca do dente {dente},",
+          "achado": "evidencia-se radiolucidez nas bifurcações ou trifurcações, indicando perda óssea localizada.",
+          "impressao": "Os achados são sugestivos de alteração em região de furca, associada a doença periodontal avançada.",
+          "recomendacao": "Recomenda-se avaliação periodontal especializada para terapia regenerativa ou cirúrgica."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        68
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na região {regiao},",
+          "achado": "nota-se imagem radiopaca não classificada em dentes ou ossos, sem correspondência com diagnósticos padrão.",
+          "impressao": "Os achados são compatíveis com imagem radiopaca indeterminada, possivelmente calcificação ou artefato.",
+          "recomendacao": "Sugere-se investigação adicional com exames 3D para caracterização precisa."
+        },
+        "placeholders": [
+          "{regiao}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        69
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1",
+        "E2"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na região apical do dente {dente},",
+          "achado": "observa-se imagem radiolúcida ou mista próxima à raiz, com contornos variados.",
+          "impressao": "Os achados são sugestivos de displasia cementária apical, diferenciando-se de lesões periapicais inflamatórias.",
+          "recomendacao": "Recomenda-se proservação conservadora, com controles radiográficos para monitoramento de estabilidade."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        70
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1",
+        "E2"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Próximo ao dente {dente},",
+          "achado": "evidencia-se imagem radiopaca focal aderida à raiz, sem expansão significativa.",
+          "impressao": "Os achados são sugestivos de displasia cemento-óssea focal, uma lesão benigna comum em pré-molares.",
+          "recomendacao": "Sugere-se observação clínica, com biópsia apenas se crescimento observado em controles."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        71
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na região edêntula do dente {dente},",
+          "achado": "nota-se estrutura radiopaca cilíndrica ou parafusada, integrada ao osso alveolar.",
+          "impressao": "Os achados são compatíveis com implante dentário, com possível osseointegração estabelecida.",
+          "recomendacao": "Recomenda-se avaliação protética para carregamento e proservação periódica para detecção de peri-implantite."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        72
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1",
+        "E2"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No conduto radicular do dente {dente},",
+          "achado": "observa-se fragmento radiopaco curvilíneo, compatível com instrumento endodôntico quebrado.",
+          "impressao": "Os achados são sugestivos de instrumento endodôntico fraturado, com risco de contaminação persistente.",
+          "recomendacao": "Sugere-se retratamento endodôntico especializado para remoção ou by-pass do fragmento."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        73
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No dente {dente},",
+          "achado": "evidencia-se posicionamento abaixo do plano oclusal, com possível anquilose radicular.",
+          "impressao": "Os achados são compatíveis com infra-oclusão dentária, afetando a harmonia oclusal.",
+          "recomendacao": "Recomenda-se investigação etiológica e planejamento ortodôntico ou protético para correção."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        74
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1",
+        "E2"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No dente {dente},",
+          "achado": "nota-se perda óssea alveolar severa ao redor da raiz, com mobilidade sugerida.",
+          "impressao": "Os achados são sugestivos de lesão endo-perio ou perio-endo, com envolvimento pulpar e periodontal.",
+          "recomendacao": "Sugere-se terapia combinada endodôntica e periodontal, com prognóstico dependente da resposta tecidual."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        75
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No dente {dente},",
+          "achado": "identifica-se redução dimensional global da estrutura dentária.",
+          "impressao": "Os achados são compatíveis com microdente, uma anomalia de desenvolvimento.",
+          "recomendacao": "Recomenda-se avaliação ortodôntica para impactos oclusais e opções restauradoras."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        76
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No ligamento estiloioídeo {regiao},",
+          "achado": "observa-se mineralização estendida superior a 2 cm, com possível calcificação.",
+          "impressao": "Os achados são sugestivos de mineralização do ligamento estiloioídeo, associada à síndrome de Eagle.",
+          "recomendacao": "Sugere-se avaliação otorrinolaringológica para sintomas de dor ou disfagia, com opção cirúrgica."
+        },
+        "placeholders": [
+          "{regiao}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        77
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1",
+        "E2"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na polpa do dente {dente},",
+          "achado": "evidencia-se mineralização total ou parcial da câmara ou conduto, reduzindo o espaço pulpar.",
+          "impressao": "Os achados são compatíveis com mineralização endodental, frequentemente pós-trauma ou ortodôntica.",
+          "recomendacao": "Recomenda-se endodontia se sintomático, com dificuldade técnica devido à obliteração."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        78
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1",
+        "E2"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na câmara pulpar do dente {dente},",
+          "achado": "nota-se calcificações pontuais dispersas, como nódulos mineralizados.",
+          "impressao": "Os achados são sugestivos de nódulo pulpar, uma resposta defensiva pulpar.",
+          "recomendacao": "Sugere-se monitoramento endodôntico, com intervenção se houver obstrução ou sintomas."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        79
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No conduto radicular do dente {dente},",
+          "achado": "observa-se estrutura radiopaca em forma de cunha, ancorada no canal.",
+          "impressao": "Os achados são compatíveis com núcleo intrarradicular, para suporte protético.",
+          "recomendacao": "Recomenda-se verificação de integridade em proservação, com remoção se falha observada."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        80
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1",
+        "E2"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Nas raízes do dente {dente},",
+          "achado": "evidencia-se proximidade íntima com o conduto mandibular, com risco de lesão nervosa.",
+          "impressao": "Os achados indicam risco para o nervo alveolar inferior durante procedimentos.",
+          "recomendacao": "Sugere-se tomografia para planejamento cirúrgico cauteloso e minimização de complicações neurossensoriais."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        81
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1",
+        "E2"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Próximo ao dente {dente},",
+          "achado": "nota-se imagem radiopaca apical, associada a cárie ou tratamento endodôntico.",
+          "impressao": "Os achados são sugestivos de osteite condensante, uma reação óssea focal benigna.",
+          "recomendacao": "Recomenda-se tratamento da causa primária e proservação para regressão espontânea."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        82
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Próximo ao dente {dente},",
+          "achado": "observa-se perda óssea alveolar plana e uniforme ao longo da crista.",
+          "impressao": "Os achados são compatíveis com perda alveolar horizontal, indicativa de doença periodontal generalizada.",
+          "recomendacao": "Sugere-se terapia periodontal básica, com raspagem e alisamento radicular para estabilização."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        83
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Próximo ao dente {dente},",
+          "achado": "evidencia-se perda óssea alveolar angular, formando defeitos verticais localizados.",
+          "impressao": "Os achados são compatíveis com perda alveolar vertical, sugestiva de periodontite agressiva.",
+          "recomendacao": "Recomenda-se terapia regenerativa periodontal, com enxertos se defeito profundo."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        84
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1",
+        "E2"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na raiz do dente {dente},",
+          "achado": "identifica-se radiolucidez indicativa de descontinuidade radicular, possivelmente iatrogênica.",
+          "impressao": "Os achados são sugestivos de perfuração radicular, com risco de infecção crônica.",
+          "recomendacao": "Sugere-se selamento endodôntico ou exodontia, dependendo da localização da perfuração."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        85
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na região edêntula {regiao},",
+          "achado": "nota-se coroa protética suspensa, suportada por pilares adjacentes.",
+          "impressao": "Os achados são compatíveis com pôntico protético, para reabilitação de ausência dentária.",
+          "recomendacao": "Recomenda-se verificação de higiene subpontica para prevenção de inflamação gengival."
+        },
+        "placeholders": [
+          "{regiao}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        86
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na região do dente {dente},",
+          "achado": "observa-se fragmento radicular residual, intraósseo ou exposto.",
+          "impressao": "Os achados são sugestivos de raiz residual pós-exodontia incompleta.",
+          "recomendacao": "Sugere-se remoção cirúrgica se sintomático ou para planejamento implantar."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        88
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No dente {dente},",
+          "achado": "evidencia-se imagem em evolução terapêutica, requerendo comparação temporal.",
+          "impressao": "Os achados necessitam de análise comparativa para avaliação de progresso.",
+          "recomendacao": "Sugere-se comparar com radiografias anteriores para estudar a evolução do tratamento."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        89
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No dente {dente},",
+          "achado": "nota-se espaço reduzido para erupção devido a dentes adjacentes.",
+          "impressao": "Os achados indicam insuficiência espacial para erupção normal.",
+          "recomendacao": "Recomenda-se intervenção ortodôntica para criação de espaço ou exodontia seletiva."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        90
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No dente {dente},",
+          "achado": "identifica-se alteração pulpar possível por proximidade lesional.",
+          "impressao": "Os achados requerem verificação de vitalidade para exclusão de necrose.",
+          "recomendacao": "Sugere-se teste de vitalidade pulpar para guiar terapia endodôntica."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        91
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No côndilo mandibular {regiao},",
+          "achado": "observa-se alteração morfológica como erosão ou osteófito.",
+          "impressao": "Os achados são sugestivos de degeneração condilar, possivelmente artrose.",
+          "recomendacao": "Recomenda-se avaliação clínica morfológica condilar para terapia conservadora ou cirúrgica."
+        },
+        "placeholders": [
+          "{regiao}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        92
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E2",
+        "E3"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Próximo aos caninos ou pré-molares inferiores,",
+          "achado": "evidencia-se protuberâncias radiopacas bilaterais ou unilaterais.",
+          "impressao": "Os achados são compatíveis com tórus mandibular ou palatino, variações anatômicas benignas.",
+          "recomendacao": "Sugere-se monitoramento se assintomático, ou remoção para prótese se interferente."
+        },
+        "placeholders": []
+      }
+    },
+    {
+      "codigos": [
+        93
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na coroa protética do dente {dente},",
+          "achado": "nota-se radiolucidez oclusal por desgaste excessivo.",
+          "impressao": "Os achados são sugestivos de trauma oclusal, com sobrecarga na prótese.",
+          "recomendacao": "Recomenda-se avaliação oclusal para ajuste e prevenção de fraturas protéticas."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        94
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No seio maxilar {regiao},",
+          "achado": "observa-se opacificação radiopaca difusa, sugerindo inflamação mucosa.",
+          "impressao": "Os achados são sugestivos de velamento sinusal, possivelmente sinusite.",
+          "recomendacao": "Sugere-se referência otorrinolaringológica para diagnóstico etiológico e tratamento."
+        },
+        "placeholders": [
+          "{regiao}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        96
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No dente decíduo {dente},",
+          "achado": "nota-se reabsorção radicular inicial nos terços apical a médio, sem lesão associada.",
+          "impressao": "Os achados são sugestivos de rizólise fisiológica inicial, processo natural de exfoliação.",
+          "recomendacao": "Sugere-se proservação para confirmação de cronologia erupcional normal."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        97
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No dente decíduo {dente},",
+          "achado": "identifica-se reabsorção radicular avançada do terço médio ao cervical, indicando fase final.",
+          "impressao": "Os achados são compatíveis com rizólise fisiológica avançada, preparatória para erupção permanente.",
+          "recomendacao": "Recomenda-se monitoramento para exfoliação espontânea ou intervenção se atrasada."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        98
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No dente molar {dente},",
+          "achado": "observa-se ausência de uma raiz, com manutenção alveolar pelas raízes remanescentes.",
+          "impressao": "Os achados são sugestivos de rizectomia, intervenção cirúrgica seletiva.",
+          "recomendacao": "Sugere-se avaliação periodontal para estabilidade das raízes restantes."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        99
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No dente molar {dente},",
+          "achado": "nota-se seccionamento cirúrgico das raízes, com separação estrutural.",
+          "impressao": "Os achados são compatíveis com odontosecção, para preservação parcial do elemento.",
+          "recomendacao": "Recomenda-se proservação endodôntica e periodontal pós-cirúrgica."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        100
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No dente {dente} restaurado,",
+          "achado": "evidencia-se material na câmara pulpar sem obturação radicular associada.",
+          "impressao": "Os achados são sugestivos de ausência de tratamento endodôntico onde indicado, com risco pulpar.",
+          "recomendacao": "Sugere-se avaliação endodôntica para planejamento de canal, evitando necrose pulpar."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        101
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1",
+        "E2"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na raiz do dente {dente},",
+          "achado": "observa-se curvatura anormal ou deformidade no trajeto radicular.",
+          "impressao": "Os achados são compatíveis com dilaceração radicular, possivelmente traumática ou desenvolvimental.",
+          "recomendacao": "Recomenda-se cautela em procedimentos endodônticos, com uso de técnicas rotatórias adaptadas."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        102
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1",
+        "E2"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Em tecidos moles orais {regiao},",
+          "achado": "nota-se imagem radiopaca metálica, localizada em língua, lábio ou bochecha.",
+          "impressao": "Os achados são compatíveis com piercing ou acessório estético, sem complicações evidentes.",
+          "recomendacao": "Sugere-se orientação sobre cuidados locais e remoção se interferir em exames ou higiene."
+        },
+        "placeholders": [
+          "{regiao}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        104
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1",
+        "E2"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na região óssea {regiao},",
+          "achado": "identifica-se material radiopaco ou misto em área de defeito, indicando regeneração guiada.",
+          "impressao": "Os achados são sugestivos de enxerto ósseo pós-cirúrgico, com integração em progresso.",
+          "recomendacao": "Recomenda-se comparação com exames anteriores para avaliar osseointegração e planejamento implantar."
+        },
+        "placeholders": [
+          "{regiao}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        106
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1",
+        "E4"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na abóbada palatina,",
+          "achado": "observa-se estrutura ortopédica transversal radiopaca, para expansão maxilar.",
+          "impressao": "Os achados são compatíveis com aparelho expansor palatino, corrigindo discrepâncias transversais.",
+          "recomendacao": "Sugere-se acompanhamento ortodôntico para maturação sutural e remoção oportuna."
+        },
+        "placeholders": []
+      }
+    },
+    {
+      "codigos": [
+        107
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na região maxilofacial {regiao},",
+          "achado": "evidencia-se placas e parafusos radiopacos para fixação óssea.",
+          "impressao": "Os achados são sugestivos de osteossíntese pós-cirúrgica ou traumática.",
+          "recomendacao": "Recomenda-se proservação com remoção de hardware após consolidação óssea."
+        },
+        "placeholders": [
+          "{regiao}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        108,
+        19,
+        20
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "ANY"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- {localizacao_livre},",
+          "achado": "{achado_livre}, com características radiográficas que demandam análise detalhada.",
+          "impressao": "{impressao_livre}, considerando hipóteses diferenciais clínicas.",
+          "recomendacao": "{recomendacao_livre}, com ênfase em exames complementares para refinamento diagnóstico."
+        },
+        "placeholders": [
+          "{localizacao_livre}",
+          "{achado_livre}",
+          "{impressao_livre}",
+          "{recomendacao_livre}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        23
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1",
+        "E2"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na região alveolar do dente {dente},",
+          "achado": "identifica-se alvéolo vazio com lâmina dura preservada, sugerindo remoção recente do elemento.",
+          "impressao": "Os achados são sugestivos de extração recente, com processo de cicatrização inicial em curso.",
+          "recomendacao": "Sugere-se proservação para avaliação da cicatrização óssea, com planejamento reabilitador se necessário após consolidação tecidual."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        23
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E3"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na região alveolar do dente {dente},",
+          "achado": "identifica-se alvéolo vazio com contornos preservados, sugestivo de processo de cicatrização pós-exodontia.",
+          "impressao": "Os achados são sugestivos de extração recente, com processo de cicatrização inicial em curso.",
+          "recomendacao": "Sugere-se proservação para avaliação da cicatrização óssea, com planejamento reabilitador se necessário após consolidação tecidual."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        34
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1",
+        "E2"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na câmara pulpar do dente {dente},",
+          "achado": "identifica-se presença de material obturador, possivelmente em dentes decíduos ou com pulpotomia.",
+          "impressao": "Os achados são compatíveis com obturação pulpar, sem sinais imediatos de complicações periapicais.",
+          "recomendacao": "Recomenda-se avaliação periapical complementar e clínica para monitoramento de vitalidade remanescente."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        34
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E3"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- Na câmara pulpar do dente {dente},",
+          "achado": "identifica-se presença de material obturador, possivelmente em dentes decíduos ou com pulpotomia.",
+          "impressao": "Os achados são compatíveis com obturação pulpar, sem sinais imediatos de complicações.",
+          "recomendacao": "Recomenda-se avaliação clínica e radiográfica complementar para monitoramento de vitalidade remanescente."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    },
+    {
+      "codigos": [
+        95
+      ],
+      "formato": "A",
+      "exames_permitidos": [
+        "E1",
+        "E2"
+      ],
+      "template": {
+        "triade": {
+          "localizacao": "- No dente permanente {dente},",
+          "achado": "evidencia-se formação radicular incompleta, com ápice aberto.",
+          "impressao": "Os achados são compatíveis com rizogênese incompleta, fase de desenvolvimento dentário.",
+          "recomendacao": "Recomenda-se monitoramento em pacientes infantis para acompanhamento da maturação radicular."
+        },
+        "placeholders": [
+          "{dente}"
+        ]
+      }
+    }
+  ]
 }
