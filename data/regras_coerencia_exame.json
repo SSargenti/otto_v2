@@ -1,42 +1,120 @@
 {
   "E1": {
     "nome": "Panorâmica",
-    "permite": [
-      "coronal",
-      "radicular",
-      "ósseo geral"
-    ],
-    "nao_permite": [],
-    "ressalvas": [
-      "Na panorâmica, a avaliação radicular tem caráter geral, podendo não evidenciar detalhes finos, que são melhor observados em exames periapicais."
-    ]
+    "pode_raiz": true,
+    "bloquear_termos": [],
+    "sugestao_padrao": "Para análise de detalhes finos, considerar radiografias periapicais e/ou interproximais."
   },
   "E2": {
     "nome": "Periapicais",
-    "permite": [
-      "coronal",
-      "radicular",
-      "periapical detalhado"
-    ],
-    "nao_permite": []
+    "pode_raiz": true,
+    "bloquear_termos": []
   },
   "E3": {
     "nome": "Interproximais",
-    "permite": [
-      "coronal",
-      "cristas alveolares"
+    "pode_raiz": false,
+    "bloquear_termos": [
+      "ápice",
+      "periapical",
+      "ligamento periodontal",
+      "lâmina dura",
+      "terço radicular"
     ],
-    "nao_permite": [
-      "termos radiculares"
-    ],
-    "nota_correcao": "Nota de Correção: O exame interproximal não avalia porções radiculares; os achados foram descritos considerando apenas coroas e cristas alveolares."
+    "nota": "Não descreve adequadamente a porção radicular; evitar termos radiculares e conclusões apicais."
   },
   "E4": {
     "nome": "Oclusal",
-    "permite": [
-      "inclinações vestibulares/linguais",
-      "localização"
-    ],
-    "nao_permite": []
+    "pode_raiz": "parcial",
+    "bloquear_termos": [],
+    "nota": "Limitação para detalhes finos radiculares."
+  },
+  "$comment": "Arquivo atualizado — inclui coerência clínica odontológica avançada (v2.1, nov/2025)",
+  "permitir_aliases": false,
+  "coerencia_clinica": {
+    "descricao": "Regras automáticas de coerência clínica aplicáveis a todos os tipos de exame.",
+    "fusao_restauradora": {
+      "descricao": "Quando houver dois ou mais códigos restauradores (4, 5, 6, 7) no mesmo dente, a terminologia deve sempre ser 'restauração', sem citar 'coroa'.",
+      "codigos_afetados": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "acao": "unificar_para_restauracao",
+      "exemplo": "Antes: 'Restauração ou coroa metálica/plástica com aspecto de normalidade e restauração radiolúcida.' → Depois: 'Restauração metálica/plástica com aspecto de normalidade e área radiolúcida associada.'"
+    },
+    "restauracao_implante": {
+      "descricao": "Se houver restauração (4, 5, 6, 7) associada a implante (71), o termo final deve ser 'coroa protética', omitindo 'restauração'.",
+      "codigos_afetados": {
+        "restauradores": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "implante": [
+          71
+        ]
+      },
+      "acao": "substituir_por_coroa_protetica",
+      "exemplo": "Antes: 'Restauração metálica associada a implante dentário.' → Depois: 'Coroa protética associada a implante dentário.'"
+    },
+    "restauracao_radiolucida_implante": {
+      "descricao": "Se houver o código 6 (Restauração ou coroa radiolúcida) associado ao código 71 (Implante dentário), deve-se interpretar como 'Coroa protética radiolúcida associada a implante'.",
+      "condicao": [
+        6,
+        71
+      ],
+      "acao": "interpretar_como_coroa_protetica_radiolucida",
+      "texto_gerado": "Coroa protética radiolúcida associada a implante. Recomenda-se avaliação clínica da adaptação marginal e da integridade protética."
+    },
+    "bloqueio_carie_implante": {
+      "descricao": "É impossível coexistir cárie (1) ou recidiva de cárie (5) com implante (71) no mesmo dente.",
+      "combinacoes_proibidas": [
+        [
+          1,
+          71
+        ],
+        [
+          5,
+          71
+        ]
+      ],
+      "acao": "erro_inconsistencia",
+      "mensagem_erro": "Inconsistência clínica detectada: não é possível associar cárie ou recidiva de cárie (1 ou 5) a implante dentário (71). Verifique o comando."
+    },
+    "perda_ossea_periodontal": {
+      "descricao": "Regra de coerência para perda óssea alveolar (horizontal e vertical). Ajusta o texto final conforme a extensão e o número de comandos com códigos 82 e 83.",
+      "codigos_afetados": [
+        82,
+        83
+      ],
+      "regras": {
+        "nenhum": {
+          "condicao": "Ausência de 82 e 83",
+          "acao": "Manter frase padrão de normalidade",
+          "texto": "Observa-se, de forma generalizada, cristas ósseas alveolares com morfologia compatível com a normalidade. A critério clínico, sugere-se avaliação periodontal complementar."
+        },
+        "localizada": {
+          "condicao": "1 a 2 comandos com 82 ou 83",
+          "acao": "Substituir frase padrão por versão localizada",
+          "texto": "Nas áreas com discreta perda óssea alveolar horizontal ou vertical, os achados são compatíveis com reabsorção óssea inicial de padrão crônico. Sugere-se avaliação periodontal localizada e reforço das medidas de higiene bucal."
+        },
+        "generalizada": {
+          "condicao": "3 ou mais comandos com 82 e/ou 83 ou termo 'generalizada' identificado",
+          "acao": "Substituir frase padrão por versão generalizada",
+          "texto": "Achados periodontais compatíveis com perda óssea alveolar horizontal e/ou vertical em múltiplos segmentos. Recomenda-se avaliação periodontal complementar para estratificação de risco e planejamento de terapia de suporte."
+        },
+        "combinada": {
+          "condicao": "Presença simultânea de 82 e 83",
+          "acao": "Unificar descrição e inserir versão combinada",
+          "texto": "Achados periodontais compatíveis com perdas ósseas alveolares de padrão horizontal e vertical em múltiplos segmentos. Sugere-se avaliação periodontal detalhada e acompanhamento clínico-radiográfico."
+        }
+      },
+      "exemplo": {
+        "antes": "Observa-se, de forma generalizada, cristas ósseas alveolares com morfologia compatível com a normalidade.",
+        "depois": "Achados periodontais compatíveis com perda óssea alveolar horizontal e/ou vertical em múltiplos segmentos."
+      }
+    }
   }
 }
