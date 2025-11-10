@@ -1,0 +1,42 @@
+{
+  "E1": {
+    "nome": "Panorâmica",
+    "permite": [
+      "coronal",
+      "radicular",
+      "ósseo geral"
+    ],
+    "nao_permite": [],
+    "ressalvas": [
+      "Na panorâmica, a avaliação radicular tem caráter geral, podendo não evidenciar detalhes finos, que são melhor observados em exames periapicais."
+    ]
+  },
+  "E2": {
+    "nome": "Periapicais",
+    "permite": [
+      "coronal",
+      "radicular",
+      "periapical detalhado"
+    ],
+    "nao_permite": []
+  },
+  "E3": {
+    "nome": "Interproximais",
+    "permite": [
+      "coronal",
+      "cristas alveolares"
+    ],
+    "nao_permite": [
+      "termos radiculares"
+    ],
+    "nota_correcao": "Nota de Correção: O exame interproximal não avalia porções radiculares; os achados foram descritos considerando apenas coroas e cristas alveolares."
+  },
+  "E4": {
+    "nome": "Oclusal",
+    "permite": [
+      "inclinações vestibulares/linguais",
+      "localização"
+    ],
+    "nao_permite": []
+  }
+}

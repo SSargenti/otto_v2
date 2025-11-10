@@ -1,0 +1,14 @@
+{
+  "cabecalho": "Laudo de Radiografia(s) {exames}.",
+  "estrutura": {
+    "titulo": true,
+    "analise_diagnostica": true,
+    "nota_correcao": true,
+    "bloco_recomendacao": true
+  },
+  "templates": {
+    "F_base": "{localizacao} {achado}. Achados compatíveis com {impressao}. {recomendacao}",
+    "F_implante_82": "No dente {dente} observa-se implante com perda óssea marginal {grau}. {conclusao}.",
+    "F_endodontia": "No dente {dente} observa-se conduto obturado adequadamente, sem rarefações associadas. Recomenda-se proservação."
+  }
+}

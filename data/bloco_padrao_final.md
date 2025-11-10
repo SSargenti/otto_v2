@@ -1,0 +1,3 @@
+- O exame radiográfico é complementar à avaliação clínica, sendo o Cirurgião-Dentista (CD) o profissional apto a emitir o diagnóstico definitivo e o plano de tratamento.
+- Sugere-se acompanhamento clínico-radiográfico periódico dos achados descritos e registrados no odontograma.
+- Na panorâmica, a avaliação radicular tem caráter geral, podendo não evidenciar detalhes finos, que são melhor observados em exames periapicais.

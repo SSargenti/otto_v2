@@ -1,0 +1,16 @@
+{
+  "restricao_frases": false,
+  "forcar_geracao_completa": true,
+  "validacao_coerencia": "ajuste_morfologico_apenas",
+  "fusao_paragrafos": false,
+  "preservar_bloco_original": true,
+  "frases_complementares": {
+    "imutaveis": true,
+    "correcao_linguistica": "leve",
+    "ajuste_por_coerencia": true
+  },
+  "erros_padrao": {
+    "sem_E": "Tipo de exame (E) não informado.",
+    "codigo_nao_encontrado": "Código [{code}] não encontrado. Verifique o manual de diagnósticos."
+  }
+}

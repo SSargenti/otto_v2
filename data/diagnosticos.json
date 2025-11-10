@@ -1,0 +1,426 @@
+{
+  "1": {
+    "nome": "Cárie",
+    "definicao": "Imagem radiolúcida coronária/odontária com limites irregulares."
+  },
+  "2": {
+    "nome": "Cárie incipiente",
+    "definicao": "Radiolucidez restrita ao esmalte."
+  },
+  "3": {
+    "nome": "Desmineralização de esmalte",
+    "definicao": "Radiolucidez no esmalte gerando dúvida diagnóstica."
+  },
+  "4": {
+    "nome": "Restauração ou coroa com excesso/falta/sem adaptação",
+    "definicao": "Restaurador radiopaco sem continuidade com o dente."
+  },
+  "5": {
+    "nome": "Restauração ou coroa com recidiva de cárie",
+    "definicao": "Restauração associada a radiolucidez compatível com cárie."
+  },
+  "6": {
+    "nome": "Restauração ou coroa estética ou cárie",
+    "definicao": "Radiolucidez restauradora estética; incluir hipótese de cárie."
+  },
+  "7": {
+    "nome": "Restauração ou coroa metálica/plástica com aspecto de normalidade",
+    "definicao": "Restauração/coroa com aspecto de normalidade."
+  },
+  "8": {
+    "nome": "Dente ausente",
+    "definicao": "Ausência de elemento dentário."
+  },
+  "9": {
+    "nome": "Conduto obturado",
+    "definicao": "Canal obturado a 1–2 mm do ápice, bem condensado."
+  },
+  "10": {
+    "nome": "Conduto parcialmente obturado",
+    "definicao": "Canal curto e/ou mal condensado com radiolucidez associada."
+  },
+  "11": {
+    "nome": "Conduto com material obturador extravasado",
+    "definicao": "Material além do ápice ou lateral à raiz."
+  },
+  "12": {
+    "nome": "Rarefação óssea periapical difusa sugerindo abscesso",
+    "definicao": "Radiolucidez periapical de limites difusos."
+  },
+  "13": {
+    "nome": "Rarefação óssea periapical circunscrita sugerindo granuloma",
+    "definicao": "Radiolucidez periapical circunscrita <0,5 cm."
+  },
+  "14": {
+    "nome": "Rarefação óssea periapical circunscrita sugerindo cisto",
+    "definicao": "Radiolucidez periapical circunscrita sugerindo cisto."
+  },
+  "15": {
+    "nome": "Reabsorção radicular interna",
+    "definicao": "Radiolucidez intra-radicular destruindo contornos habituais."
+  },
+  "16": {
+    "nome": "Reabsorção radicular externa",
+    "definicao": "Radiolucidez radicular externa destrutiva."
+  },
+  "17": {
+    "nome": "Reabsorção coronária interna",
+    "definicao": "Radiolucidez na coroa destruindo contornos da câmara."
+  },
+  "18": {
+    "nome": "Aumento do espaço pericementário",
+    "definicao": "Aumento do espaço pericementário/lâmina dura."
+  },
+  "19": {
+    "nome": "Vide laudo descritivo *",
+    "definicao": "Diagnóstico aberto (*)"
+  },
+  "20": {
+    "nome": "Vide laudo descritivo #",
+    "definicao": "Diagnóstico aberto (#)"
+  },
+  "21": {
+    "nome": "Agenesia",
+    "definicao": "Ausência por não formação."
+  },
+  "22": {
+    "nome": "Arredondamento apical",
+    "definicao": "Reabsorção apical discreta."
+  },
+  "23": {
+    "nome": "Alvéolo vazio (extração recente?)",
+    "definicao": "Radiolucidez em alvéolo pós-extração."
+  },
+  "24": {
+    "nome": "Aparelho ortodôntico",
+    "definicao": "Componentes ortodônticos radiopacos."
+  },
+  "25": {
+    "nome": "Apicectomia",
+    "definicao": "Ressecção apical."
+  },
+  "26": {
+    "nome": "Apicectomia com obturação retrógrada",
+    "definicao": "Ressecção apical com obturação retrógrada."
+  },
+  "27": {
+    "nome": "Ap|Apinhamento",
+    "definicao": "Sobreposição dentária radiográfica."
+  },
+  "28": {
+    "nome": "Aspecto radiográfico normal",
+    "definicao": "Sem alterações além da descrição solicitada."
+  },
+  "29": {
+    "nome": "Atrição / Abrasão",
+    "definicao": "Desgaste incisal/cervical."
+  },
+  "30": {
+    "nome": "Aumento do corneto nasal",
+    "definicao": "Aumento de corneto na panorâmica."
+  },
+  "31": {
+    "nome": "Aumento do espaço pericoronário (pericoronarite?)",
+    "definicao": "Folículo >0,5 cm em terceiro molar retido."
+  },
+  "32": {
+    "nome": "Aumento do folículo de erupção",
+    "definicao": "Folículo >0,5 cm em dente retido (não 3º molar)."
+  },
+  "33": {
+    "nome": "Cálculo sub/supra gengival",
+    "definicao": "Depósitos radiopacos aderidos aos dentes."
+  },
+  "34": {
+    "nome": "Câmara pulpar com material obturador",
+    "definicao": "Material obturador em câmara."
+  },
+  "35": {
+    "nome": "Cicatriz / Reparação óssea",
+    "definicao": "Formação/reparação óssea pós-endodontia/cirurgia."
+  },
+  "36": {
+    "nome": "Concrescência/Fusão/Geminação",
+    "definicao": "Anomalias dentárias raras."
+  },
+  "37": {
+    "nome": "Condensação óssea",
+    "definicao": "Osso mais radiopaco (sinônimo: 58)."
+  },
+  "38": {
+    "nome": "Contenção ortodôntica",
+    "definicao": "Fio de contenção (ex.: 33–43)."
+  },
+  "39": {
+    "nome": "Contenção pós-cirúrgica",
+    "definicao": "Placas/parafusos de contenção óssea."
+  },
+  "40": {
+    "nome": "Corpo estranho metálico",
+    "definicao": "Alta radiopacidade metálica."
+  },
+  "41": {
+    "nome": "Corpo estranho não-metálico",
+    "definicao": "Baixa radiopacidade (vidro/resina)."
+  },
+  "42": {
+    "nome": "Dente com angulação distal",
+    "definicao": "Angulação distal do eixo."
+  },
+  "43": {
+    "nome": "Dente com angulação mesial",
+    "definicao": "Angulação mesial do eixo."
+  },
+  "44": {
+    "nome": "Dente com eixo de erupção distal",
+    "definicao": "Eixo eruptivo distalizado."
+  },
+  "45": {
+    "nome": "Dente com eixo de erupção mesial",
+    "definicao": "Eixo eruptivo mesializado."
+  },
+  "46": {
+    "nome": "Dente com inclinação lingual",
+    "definicao": "Inclinação lingual (E4)."
+  },
+  "47": {
+    "nome": "Dente com inclinação vestibular",
+    "definicao": "Inclinação vestibular (E4)."
+  },
+  "48": {
+    "nome": "Dente com posição ectópica",
+    "definicao": "Posição anatômica anômala."
+  },
+  "49": {
+    "nome": "Dente conóide",
+    "definicao": "Formato de cone."
+  },
+  "50": {
+    "nome": "Dente decíduo mantido no arco",
+    "definicao": "Decíduo presente na dentição permanente."
+  },
+  "51": {
+    "nome": "Dente em desenvolvimento",
+    "definicao": "1–2/3 de raiz formados, retido."
+  },
+  "52": {
+    "nome": "Dente em erupção",
+    "definicao": ">2/3 de raiz e erupção em curso."
+  },
+  "53": {
+    "nome": "Dente retido/impactado",
+    "definicao": "Dente retido/impactado."
+  },
+  "54": {
+    "nome": "Dente supranumerário",
+    "definicao": "Excede número normal."
+  },
+  "55": {
+    "nome": "Destruição parcial da coroa",
+    "definicao": "Perda parcial de coroa."
+  },
+  "56": {
+    "nome": "Destruição total da coroa",
+    "definicao": "Perda total de coroa."
+  },
+  "57": {
+    "nome": "Desvio de septo nasal",
+    "definicao": "Septo curvo (E1)."
+  },
+  "58": {
+    "nome": "Esclerose óssea",
+    "definicao": "Osso radiopaco reacional."
+  },
+  "59": {
+    "nome": "Extrusão dentária",
+    "definicao": "Além do plano oclusal."
+  },
+  "60": {
+    "nome": "Fenômeno de retenção de muco no seio maxilar",
+    "definicao": "Imagem em cúpula no seio (E1)."
+  },
+  "61": {
+    "nome": "Forramento radiolúcido ou cárie",
+    "definicao": "Radiolucidez sob restauração; considerar teste de vitalidade se grande."
+  },
+  "62": {
+    "nome": "Fratura da coroa/raiz",
+    "definicao": "Linha radiolúcida contínua."
+  },
+  "63": {
+    "nome": "Fratura óssea",
+    "definicao": "Linhas radiolúcidas ósseas."
+  },
+  "64": {
+    "nome": "Giroversão",
+    "definicao": "Rotação dental."
+  },
+  "65": {
+    "nome": "Hipercementose",
+    "definicao": "Raiz aumentada nos terços médio/apical."
+  },
+  "66": {
+    "nome": "Imagem radiolúcida",
+    "definicao": "Imagem radiolúcida inespecífica."
+  },
+  "67": {
+    "nome": "Imagem radiolúcida em região de furca/Sugerimos avaliação periodontal",
+    "definicao": "Radiolucidez em furca."
+  },
+  "68": {
+    "nome": "Imagem radiopaca",
+    "definicao": "Imagem radiopaca inespecífica."
+  },
+  "69": {
+    "nome": "Imagem sugerindo displasia cementária apical",
+    "definicao": "Imagem próxima às raízes (radiolúcida/mista)."
+  },
+  "70": {
+    "nome": "Imagem sugerindo displasia cemento-óssea focal",
+    "definicao": "Radiopaca colada ao dente."
+  },
+  "71": {
+    "nome": "Implante dentário",
+    "definicao": "Pino/parafuso compatível com implante."
+  },
+  "72": {
+    "nome": "Instrumento endodôntico fraturado no conduto",
+    "definicao": "Lima fraturada."
+  },
+  "73": {
+    "nome": "Infra-oclusão dentária",
+    "definicao": "Abaixo do plano oclusal."
+  },
+  "74": {
+    "nome": "Lesão endo-pério/pério-endo",
+    "definicao": "Perda óssea severa associada a dente."
+  },
+  "75": {
+    "nome": "Microdente",
+    "definicao": "Dente pequeno."
+  },
+  "76": {
+    "nome": "Mineralização do ligamento estiloioídeo",
+    "definicao": "Ligamento >2 cm."
+  },
+  "77": {
+    "nome": "Mineralização endodental",
+    "definicao": "Calcificações na câmara/conduto."
+  },
+  "78": {
+    "nome": "Nódulo pulpar",
+    "definicao": "Calcificações pontuais intra-pulpares."
+  },
+  "79": {
+    "nome": "Núcleo",
+    "definicao": "Núcleo intrarradicular."
+  },
+  "80": {
+    "nome": "Observar proximidade das raízes com o conduto mandibular",
+    "definicao": "Raiz próxima ao canal mandibular."
+  },
+  "81": {
+    "nome": "Osteite condensante",
+    "definicao": "Radiopacidade associada a dente irritado/tratado."
+  },
+  "82": {
+    "nome": "Perda óssea alveolar horizontal",
+    "definicao": "Perda plana do osso alveolar."
+  },
+  "83": {
+    "nome": "Perda óssea alveolar vertical",
+    "definicao": "Perda óssea em rampa."
+  },
+  "84": {
+    "nome": "Perfuração da raiz",
+    "definicao": "Radiolucidez por perfuração iatrogênica."
+  },
+  "85": {
+    "nome": "Pôntico",
+    "definicao": "Coroa protética sem suporte direto por dente."
+  },
+  "86": {
+    "nome": "Raiz residual/resto radicular",
+    "definicao": "Remanescente radicular."
+  },
+  "88": {
+    "nome": "Sugere-se comparar radiografias anteriores",
+    "definicao": "Comparar evolução."
+  },
+  "89": {
+    "nome": "Sugere-se pouco espaço para erupção",
+    "definicao": "Redução de espaço eruptivo."
+  },
+  "90": {
+    "nome": "Sugere-se teste de vitalidade pulpar",
+    "definicao": "Indicar teste de vitalidade se aplicável."
+  },
+  "91": {
+    "nome": "Sugere-se, a critério clínico, avaliação morfológica condilar",
+    "definicao": "Alteração morfológica condilar."
+  },
+  "92": {
+    "nome": "Tórus",
+    "definicao": "Radiopacidades junto a caninos/pré-molares inferiores."
+  },
+  "93": {
+    "nome": "Trauma oclusal (avalie oclusão)",
+    "definicao": "Radiolucidez oclusal em coroa metálica."
+  },
+  "94": {
+    "nome": "Velamento do seio maxilar (sinusite?)",
+    "definicao": "Velamento evidente no seio."
+  },
+  "95": {
+    "nome": "Rizogênese incompleta",
+    "definicao": "Raiz em formação."
+  },
+  "96": {
+    "nome": "Rizólise fisiológica inicial",
+    "definicao": "Reabsorção em decíduo até terço médio."
+  },
+  "97": {
+    "nome": "Rizólise fisiológica avançada",
+    "definicao": "Reabsorção em decíduo do terço médio ao cervical."
+  },
+  "98": {
+    "nome": "Rizectomia",
+    "definicao": "Perda de uma raiz em multirradiculado."
+  },
+  "99": {
+    "nome": "Odontosecção",
+    "definicao": "Seccionamento cirúrgico de raízes."
+  },
+  "100": {
+    "nome": "Ausência de tratamento endodôntico",
+    "definicao": "Câmara/coroa restaurada sem canal quando deveria haver."
+  },
+  "101": {
+    "nome": "Dilaceração radicular",
+    "definicao": "Curvatura anormal da raiz."
+  },
+  "102": {
+    "nome": "Acessório estético/piercing",
+    "definicao": "Imagem metálica em tecidos moles orais."
+  },
+  "103": {
+    "nome": "Cárie incipiente",
+    "definicao": "Radiolucidez no esmalte (início)."
+  },
+  "104": {
+    "nome": "Enxerto ósseo",
+    "definicao": "Material de enxerto em defeito ósseo."
+  },
+  "106": {
+    "nome": "Presença de aparelho ortodôntico expansor palatino",
+    "definicao": "Expansor palatino."
+  },
+  "107": {
+    "nome": "Presença de placa metálica e/ou parafuso contenção óssea",
+    "definicao": "Fixação óssea com placa/parafusos."
+  },
+  "108": {
+    "nome": "Vide laudo descritivo",
+    "definicao": "Diagnóstico aberto."
+  }
+}
