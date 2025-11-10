@@ -1,0 +1,355 @@
+{
+  "diagnosticos.schema.json": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Diagnosticos",
+    "type": "array",
+    "items": {
+      "type": "object",
+      "required": [
+        "codigo",
+        "nome",
+        "definicao"
+      ],
+      "properties": {
+        "codigo": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 108
+        },
+        "nome": {
+          "type": "string",
+          "minLength": 1
+        },
+        "definicao": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sinonimos": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 108
+          }
+        },
+        "deprecated": {
+          "type": "boolean",
+          "default": false
+        },
+        "observacoes": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "frases.schema.json": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "FrasesPorCodigo",
+    "type": "object",
+    "required": [
+      "itens"
+    ],
+    "properties": {
+      "versao": {
+        "type": "string"
+      },
+      "idioma": {
+        "type": "string",
+        "enum": [
+          "pt-BR"
+        ]
+      },
+      "itens": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "object",
+          "required": [
+            "codigos",
+            "formato",
+            "exames_permitidos",
+            "template"
+          ],
+          "properties": {
+            "codigos": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 108
+              }
+            },
+            "formato": {
+              "type": "string",
+              "enum": [
+                "A",
+                "B"
+              ]
+            },
+            "exames_permitidos": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "string",
+                "enum": [
+                  "E1",
+                  "E2",
+                  "E3",
+                  "E4",
+                  "ANY"
+                ]
+              }
+            },
+            "condicoes": {
+              "type": "object",
+              "properties": {
+                "exige_raiz_visivel": {
+                  "type": "boolean"
+                },
+                "evitar_termo_periapical_em_E3": {
+                  "type": "boolean"
+                },
+                "permitir_com_nota_clinica": {
+                  "type": "boolean"
+                }
+              },
+              "additionalProperties": false
+            },
+            "template": {
+              "type": "object",
+              "required": [
+                "triade"
+              ],
+              "properties": {
+                "triade": {
+                  "type": "object",
+                  "required": [
+                    "localizacao",
+                    "achado",
+                    "impressao",
+                    "recomendacao"
+                  ],
+                  "properties": {
+                    "localizacao": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "achado": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "impressao": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "recomendacao": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  },
+                  "additionalProperties": false
+                },
+                "placeholders": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "default": [
+                    "{dente}",
+                    "{dentes}",
+                    "{exame}",
+                    "{nota}"
+                  ]
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "additionalProperties": false
+        }
+      }
+    },
+    "additionalProperties": false
+  },
+  "entrada_comandos.schema.json": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "EntradaComandos",
+    "type": "object",
+    "required": [
+      "E",
+      "sequencia"
+    ],
+    "properties": {
+      "E": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "integer",
+          "enum": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "description": "Tipos de exame: 1=Panorâmica, 2=Periapicais, 3=Interproximals, 4=Oclusal."
+      },
+      "sequencia": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "object",
+          "required": [
+            "tipo"
+          ],
+          "properties": {
+            "tipo": {
+              "type": "string",
+              "enum": [
+                "F",
+                "R",
+                "FRASE",
+                "FRASE BREVE"
+              ]
+            },
+            "codigos": {
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 108
+              },
+              "description": "Códigos de diagnósticos (para F ou R)."
+            },
+            "dentes": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Dentes ou regiões (para F ou R)."
+            },
+            "texto": {
+              "type": "string",
+              "description": "Texto livre para FRASE ou FRASE BREVE."
+            }
+          },
+          "additionalProperties": false,
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "tipo": {
+                    "enum": [
+                      "F",
+                      "R"
+                    ]
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "codigos"
+                ]
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "tipo": {
+                    "enum": [
+                      "FRASE",
+                      "FRASE BREVE"
+                    ]
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "texto"
+                ]
+              }
+            }
+          ]
+        },
+        "description": "Sequência de comandos a processar."
+      }
+    },
+    "additionalProperties": false
+  },
+  "regras_coerencia_exame.schema.json": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "RegrasCoerenciaExame",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "E1": {
+        "$ref": "#/definitions/exame"
+      },
+      "E2": {
+        "$ref": "#/definitions/exame"
+      },
+      "E3": {
+        "$ref": "#/definitions/exame"
+      },
+      "E4": {
+        "$ref": "#/definitions/exame"
+      }
+    },
+    "required": [
+      "E1",
+      "E2",
+      "E3",
+      "E4"
+    ],
+    "definitions": {
+      "exame": {
+        "type": "object",
+        "required": [
+          "nome",
+          "pode_raiz",
+          "bloquear_termos"
+        ],
+        "properties": {
+          "nome": {
+            "type": "string",
+            "minLength": 1
+          },
+          "pode_raiz": {
+            "anyOf": [
+              {
+                "type": "boolean"
+              },
+              {
+                "type": "string",
+                "enum": [
+                  "parcial"
+                ]
+              }
+            ]
+          },
+          "bloquear_termos": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "nota": {
+            "type": "string"
+          },
+          "sugestao_padrao": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
