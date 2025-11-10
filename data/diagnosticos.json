@@ -1,426 +1,532 @@
-{
-  "1": {
+[
+  {
+    "codigo": 1,
     "nome": "Cárie",
-    "definicao": "Imagem radiolúcida coronária/odontária com limites irregulares."
+    "definicao": "Entendido como qualquer imagem radiolúcida em qualquer parte do dente (principalmente na coroa) com aspecto irregular. Melhor visualizada em radiografias interproximais e periapicais, mas pode ser laudada em radiografias panorâmicas quando muito evidente."
   },
-  "2": {
+  {
+    "codigo": 2,
     "nome": "Cárie incipiente",
-    "definicao": "Radiolucidez restrita ao esmalte."
+    "definicao": "Entendido como imagem radiolúcida com aspecto irregular somente no nível do esmalte dentário. Melhor visualizada em radiografias interproximais e periapicais, mas pode ser laudada em radiografias panorâmicas quando muito evidente."
   },
-  "3": {
+  {
+    "codigo": 3,
     "nome": "Desmineralização de esmalte",
-    "definicao": "Radiolucidez no esmalte gerando dúvida diagnóstica."
+    "definicao": "Entendido como imagem radiolúcida com aspecto irregular somente no nível do esmalte dentário, gerando dúvida se é realmente uma cárie ou uma sombra. Deve ser laudada apenas em radiografias interproximais e periapicais."
   },
-  "4": {
+  {
+    "codigo": 4,
     "nome": "Restauração ou coroa com excesso/falta/sem adaptação",
-    "definicao": "Restaurador radiopaco sem continuidade com o dente."
+    "definicao": "Entendido como imagens radiopacas provenientes de manobras clínicas restauradoras que não apresentam aspectos de continuidade com o dente, ou seja, os materiais restauradores ou protéticos sobram, faltam ou não se adaptam ao restante do dente."
   },
-  "5": {
+  {
+    "codigo": 5,
     "nome": "Restauração ou coroa com recidiva de cárie",
-    "definicao": "Restauração associada a radiolucidez compatível com cárie."
+    "definicao": "Entendido como imagens radiopacas ou radiolúcidas provenientes de manobras clínicas restauradoras que apresentam imagens radiolúcidas compatíveis com cáries (ver diagnósticos 1 e 2) associadas às restaurações ou coroas."
   },
-  "6": {
-    "nome": "Restauração ou coroa estética ou cárie",
-    "definicao": "Radiolucidez restauradora estética; incluir hipótese de cárie."
+  {
+    "codigo": 6,
+    "nome": "Restauração Radiolúcida",
+    "definicao": "Entendido como imagens radiolúcidas provenientes de manobras clínicas restauradoras que apresentam imagens radiolúcidas bem definidas e delimitadas (diferentemente de cáries), mas, por segurança e pela natureza complementar do exame radiográfico, inclui-se a hipótese de cárie."
   },
-  "7": {
+  {
+    "codigo": 7,
     "nome": "Restauração ou coroa metálica/plástica com aspecto de normalidade",
-    "definicao": "Restauração/coroa com aspecto de normalidade."
+    "definicao": "Entendido como imagens radiopacas provenientes de manobras clínicas restauradoras que apresentam imagens bem definidas e delimitadas, mas, por segurança e pela natureza complementar do exame radiográfico, descrito como \"aspecto de normalidade\"."
   },
-  "8": {
+  {
+    "codigo": 8,
     "nome": "Dente ausente",
-    "definicao": "Ausência de elemento dentário."
+    "definicao": "Entendido como dente não visualizado entre os 32 dentes permanentes e/ou 20 dentes decíduos."
   },
-  "9": {
+  {
+    "codigo": 9,
     "nome": "Conduto obturado",
-    "definicao": "Canal obturado a 1–2 mm do ápice, bem condensado."
+    "definicao": "Entendido como canal que se encontra a um ou dois milímetros do ápice radicular e também se apresenta bem condensado lateralmente (sem imagens radiolúcidas associadas às imagens radiopacas dos cones e cimento endodôntico)."
   },
-  "10": {
+  {
+    "codigo": 10,
     "nome": "Conduto parcialmente obturado",
-    "definicao": "Canal curto e/ou mal condensado com radiolucidez associada."
+    "definicao": "Entendido como canal que se encontra a uma distância maior que dois milímetros do ápice radicular e também se apresenta mal condensado lateralmente (com imagens radiolúcidas associadas às imagens radiopacas dos cones e cimento endodôntico)."
   },
-  "11": {
+  {
+    "codigo": 11,
     "nome": "Conduto com material obturador extravasado",
-    "definicao": "Material além do ápice ou lateral à raiz."
+    "definicao": "Entendido como canal que apresenta material obturador além do ápice radicular ou extravasado lateralmente à raiz."
   },
-  "12": {
+  {
+    "codigo": 12,
     "nome": "Rarefação óssea periapical difusa sugerindo abscesso",
-    "definicao": "Radiolucidez periapical de limites difusos."
+    "definicao": "Entendido como imagem radiolúcida no periápice de qualquer dente sem limites bem definidos, usualmente associada a cárie, tratamentos endodônticos, restaurações extensas ou históricos de traumatismos."
   },
-  "13": {
+  {
+    "codigo": 13,
     "nome": "Rarefação óssea periapical circunscrita sugerindo granuloma",
-    "definicao": "Radiolucidez periapical circunscrita <0,5 cm."
+    "definicao": "Entendido como imagem radiolúcida no periápice de qualquer dente com limites bem definidos, não ultrapassando meio centímetro em seus maiores diâmetros, usualmente associada a cárie, tratamentos endodônticos, restaurações extensas ou históricos de traumatismos."
   },
-  "14": {
+  {
+    "codigo": 14,
     "nome": "Rarefação óssea periapical circunscrita sugerindo cisto",
-    "definicao": "Radiolucidez periapical circunscrita sugerindo cisto."
+    "definicao": "Entendido como imagem radiolúcida no periápice de qualquer dente com limites bem definidos, usualmente associada a cárie, tratamentos endodônticos, restaurações extensas ou históricos de traumatismos, sugerindo cisto."
   },
-  "15": {
+  {
+    "codigo": 15,
     "nome": "Reabsorção radicular interna",
-    "definicao": "Radiolucidez intra-radicular destruindo contornos habituais."
+    "definicao": "Entendido como imagem radiolúcida na raiz de qualquer dente que destrói os contornos habituais da raiz e do canal radicular, usualmente associada a cárie, tratamentos endodônticos, restaurações extensas, uso de aparatologia ortodôntica ou históricos de traumatismos."
   },
-  "16": {
+  {
+    "codigo": 16,
     "nome": "Reabsorção radicular externa",
-    "definicao": "Radiolucidez radicular externa destrutiva."
+    "definicao": "Entendido como imagem radiolúcida na raiz de qualquer dente (normalmente nos terços apicais e médios) que destrói os contornos habituais da raiz e do canal radicular, usualmente associada a uso de aparatologia ortodôntica ou históricos de traumatismos."
   },
-  "17": {
+  {
+    "codigo": 17,
     "nome": "Reabsorção coronária interna",
-    "definicao": "Radiolucidez na coroa destruindo contornos da câmara."
+    "definicao": "Entendido como imagem radiolúcida na coroa de qualquer dente que destrói os contornos habituais da coroa e da câmara pulpar, usualmente associada a uso de aparatologia ortodôntica ou históricos de traumatismos."
   },
-  "18": {
+  {
+    "codigo": 18,
     "nome": "Aumento do espaço pericementário",
-    "definicao": "Aumento do espaço pericementário/lâmina dura."
+    "definicao": "Entendido como imagem radiolúcida na raiz de qualquer dente que aumenta o contorno habitual da lâmina dura ao redor do cemento, consequentemente aumentando o espaço pericementário, associado a cárie, tratamentos endodônticos, restaurações extensas, uso de aparatologia ortodôntica ou históricos de traumatismos."
   },
-  "19": {
+  {
+    "codigo": 19,
     "nome": "Vide laudo descritivo *",
-    "definicao": "Diagnóstico aberto (*)"
+    "definicao": "Diagnóstico \"aberto\" onde o dentista/radiologista pode descrever uma imagem sem diagnóstico predefinido. O número 19 não aparece no laudo, sendo substituído pelo símbolo *."
   },
-  "20": {
+  {
+    "codigo": 20,
     "nome": "Vide laudo descritivo #",
-    "definicao": "Diagnóstico aberto (#)"
+    "definicao": "Diagnóstico \"aberto\" onde o dentista/radiologista pode descrever uma imagem sem diagnóstico predefinido. O número 20 não aparece no laudo, sendo substituído pelo símbolo #."
   },
-  "21": {
+  {
+    "codigo": 21,
     "nome": "Agenesia",
-    "definicao": "Ausência por não formação."
+    "definicao": "Utilizado como exemplo de dente ausente, quando há certeza de que o dente não foi formado. Pode ser usado em bocas adultas ou infantis."
   },
-  "22": {
+  {
+    "codigo": 22,
     "nome": "Arredondamento apical",
-    "definicao": "Reabsorção apical discreta."
+    "definicao": "Entendido como uma discreta reabsorção radicular externa no ápice radicular (terço apical), usualmente associada ao uso de aparatologia ortodôntica."
   },
-  "23": {
+  {
+    "codigo": 23,
     "nome": "Alvéolo vazio (extração recente?)",
-    "definicao": "Radiolucidez em alvéolo pós-extração."
+    "definicao": "Entendido como imagem radiolúcida no local ósseo onde havia um dente e supostamente foi extraído recentemente, geralmente com lâmina dura evidente."
   },
-  "24": {
+  {
+    "codigo": 24,
     "nome": "Aparelho ortodôntico",
-    "definicao": "Componentes ortodônticos radiopacos."
+    "definicao": "Entendido como imagem radiopaca na região coronária dos dentes, indicando a presença de aparelho ortodôntico superior, inferior ou supero-inferior."
   },
-  "25": {
+  {
+    "codigo": 25,
     "nome": "Apicectomia",
-    "definicao": "Ressecção apical."
+    "definicao": "Entendido como corte radicular apical, normalmente associado a tratamento endodôntico e, às vezes, com lesão periapical."
   },
-  "26": {
+  {
+    "codigo": 26,
     "nome": "Apicectomia com obturação retrógrada",
-    "definicao": "Ressecção apical com obturação retrógrada."
+    "definicao": "Entendido como corte radicular apical associado a obturação apical (amálgama), normalmente associado a tratamento endodôntico e, às vezes, com lesão periapical."
   },
-  "27": {
-    "nome": "Ap|Apinhamento",
-    "definicao": "Sobreposição dentária radiográfica."
+  {
+    "codigo": 27,
+    "nome": "Apinhamento",
+    "definicao": "Entendido como dentes sobrepostos no exame radiográfico, bastante visualizado em região de incisivos inferiores."
   },
-  "28": {
+  {
+    "codigo": 28,
     "nome": "Aspecto radiográfico normal",
-    "definicao": "Sem alterações além da descrição solicitada."
+    "definicao": "Utilizado quando o dentista solicita uma radiografia e especifica o motivo, mas nada é observado na região solicitada, além de descrever os achados. Pode ser aplicado a dente ou outra estrutura anatômica."
   },
-  "29": {
+  {
+    "codigo": 29,
     "nome": "Atrição / Abrasão",
-    "definicao": "Desgaste incisal/cervical."
+    "definicao": "Entendido como desgaste nas faces incisais (atrição) ou terços cervicais (abrasão) dos dentes. A atrição é mais laudada, normalmente afetando pacientes adultos nas regiões dos dentes anteriores (13 a 23 e 33 a 43)."
   },
-  "30": {
+  {
+    "codigo": 30,
     "nome": "Aumento do corneto nasal",
-    "definicao": "Aumento de corneto na panorâmica."
+    "definicao": "Utilizado nas regiões das cavidades nasais direita e esquerda (não aparece na primeira folha do laudo/odontograma), visualizado apenas em radiografias panorâmicas, laudado quando o tamanho do corneto nasal sugere dificuldade respiratória."
   },
-  "31": {
+  {
+    "codigo": 31,
     "nome": "Aumento do espaço pericoronário (pericoronarite?)",
-    "definicao": "Folículo >0,5 cm em terceiro molar retido."
+    "definicao": "Utilizado, normalmente, nas regiões de terceiros molares inferiores prestes a erupcionar (retidos); o folículo de erupção apresenta tamanho maior que meio centímetro em sua maior extensão."
   },
-  "32": {
+  {
+    "codigo": 32,
     "nome": "Aumento do folículo de erupção",
-    "definicao": "Folículo >0,5 cm em dente retido (não 3º molar)."
+    "definicao": "Utilizado, normalmente, em qualquer dente retido, com folículo de erupção maior que meio centímetro em sua maior extensão, preferencialmente para outros dentes (não terceiros molares)."
   },
-  "33": {
+  {
+    "codigo": 33,
     "nome": "Cálculo sub/supra gengival",
-    "definicao": "Depósitos radiopacos aderidos aos dentes."
+    "definicao": "Entendido como imagem(ens) radiopaca(s) associada(s) a dentes erupcionados, utilizado em qualquer dente, especialmente em molares superiores e dentes ântero-inferiores."
   },
-  "34": {
+  {
+    "codigo": 34,
     "nome": "Câmara pulpar com material obturador",
-    "definicao": "Material obturador em câmara."
+    "definicao": "Utilizado, normalmente, em qualquer dente, mas dentes decíduos apresentam mais esse diagnóstico. Deve-se sempre verificar a região periapical para lesões associadas e sugerir avaliação clínica."
   },
-  "35": {
+  {
+    "codigo": 35,
     "nome": "Cicatriz / Reparação óssea",
-    "definicao": "Formação/reparação óssea pós-endodontia/cirurgia."
+    "definicao": "Utilizado em qualquer dente tratado endodonticamente sugerindo sucesso no tratamento e remissão de lesão periapical, ou qualquer região da maxila ou mandíbula que sofreu acesso cirúrgico e apresenta aspecto de formação óssea (ex.: lesões císticas ou tumorais)."
   },
-  "36": {
+  {
+    "codigo": 36,
     "nome": "Concrescência/Fusão/Geminação",
-    "definicao": "Anomalias dentárias raras."
+    "definicao": "Utilizado em qualquer dente, sendo anomalias raras, sempre associado a um laudo explicativo correspondente."
   },
-  "37": {
+  {
+    "codigo": 37,
     "nome": "Condensação óssea",
-    "definicao": "Osso mais radiopaco (sinônimo: 58)."
+    "definicao": "Utilizado em qualquer região da maxila ou mandíbula que apresenta osso mais radiopaco e não compatível com imagens de tórus ou sialolito. Pode ser trocado pelo diagnóstico de Esclerose óssea (número 58)."
   },
-  "38": {
+  {
+    "codigo": 38,
     "nome": "Contenção ortodôntica",
-    "definicao": "Fio de contenção (ex.: 33–43)."
+    "definicao": "Entendido como imagem radiopaca de aspecto metálico único (em linha reta ou ondulada), normalmente utilizada nos dentes 33 a 43, mas pode ser usada em outros dentes (ex.: 13 a 23)."
   },
-  "39": {
+  {
+    "codigo": 39,
     "nome": "Contenção pós-cirúrgica",
-    "definicao": "Placas/parafusos de contenção óssea."
+    "definicao": "Entendido como imagem radiopaca de aspecto metálico único (em linha reta, ondulada e com parafusos metálicos), normalmente utilizada nos ossos mandibulares e maxilares, indicando traumatismo ou cirurgia ortognática prévia."
   },
-  "40": {
+  {
+    "codigo": 40,
     "nome": "Corpo estranho metálico",
-    "definicao": "Alta radiopacidade metálica."
+    "definicao": "Entendido como imagem radiopaca de aspecto metálico único ou múltiplo (alta radiopacidade), normalmente nos ossos mandibulares, maxilares ou próximos de dentes (tatuagens por amálgama)."
   },
-  "41": {
+  {
+    "codigo": 41,
     "nome": "Corpo estranho não-metálico",
-    "definicao": "Baixa radiopacidade (vidro/resina)."
+    "definicao": "Entendido como imagem radiopaca de aspecto não-metálico único ou múltiplo (baixa radiopacidade), normalmente nos ossos mandibulares, maxilares ou próximos de dentes (vidro ou resinas)."
   },
-  "42": {
+  {
+    "codigo": 42,
     "nome": "Dente com angulação distal",
-    "definicao": "Angulação distal do eixo."
+    "definicao": "Entendido como qualquer dente erupcionado ou retido que se encontra angulado para distal."
   },
-  "43": {
+  {
+    "codigo": 43,
     "nome": "Dente com angulação mesial",
-    "definicao": "Angulação mesial do eixo."
+    "definicao": "Entendido como qualquer dente erupcionado ou retido que se encontra angulado para mesial."
   },
-  "44": {
+  {
+    "codigo": 44,
     "nome": "Dente com eixo de erupção distal",
-    "definicao": "Eixo eruptivo distalizado."
+    "definicao": "Entendido como qualquer dente em erupção que se encontra angulado para distal."
   },
-  "45": {
+  {
+    "codigo": 45,
     "nome": "Dente com eixo de erupção mesial",
-    "definicao": "Eixo eruptivo mesializado."
+    "definicao": "Entendido como qualquer dente em erupção que se encontra angulado para mesial."
   },
-  "46": {
+  {
+    "codigo": 46,
     "nome": "Dente com inclinação lingual",
-    "definicao": "Inclinação lingual (E4)."
+    "definicao": "Entendido como qualquer dente erupcionado ou retido que se encontra inclinado para lingual, utilizado apenas em radiografias oclusais ou técnicas de localização radiográfica, nunca em técnicas convencionais (interproximal, periapical ou panorâmica)."
   },
-  "47": {
+  {
+    "codigo": 47,
     "nome": "Dente com inclinação vestibular",
-    "definicao": "Inclinação vestibular (E4)."
+    "definicao": "Entendido como qualquer dente erupcionado ou retido que se encontra inclinado para vestibular, utilizado apenas em radiografias oclusais ou técnicas de localização radiográfica, nunca em técnicas convencionais (interproximal, periapical ou panorâmica)."
   },
-  "48": {
+  {
+    "codigo": 48,
     "nome": "Dente com posição ectópica",
-    "definicao": "Posição anatômica anômala."
+    "definicao": "Entendido como qualquer dente erupcionado ou retido localizado em qualquer estrutura óssea que não seja os ossos alveolares ou em outra região, dentro do osso alveolar, que não seja sua região de origem (ex.: dente 13 trocado com dente 14)."
   },
-  "49": {
+  {
+    "codigo": 49,
     "nome": "Dente conóide",
-    "definicao": "Formato de cone."
+    "definicao": "Entendido como qualquer dente com aspecto radiográfico em forma de cone, muito utilizado para os dentes 12, 22 e terceiros molares."
   },
-  "50": {
+  {
+    "codigo": 50,
     "nome": "Dente decíduo mantido no arco",
-    "definicao": "Decíduo presente na dentição permanente."
+    "definicao": "Entendido como qualquer dente de leite (decíduo) encontrado na boca permanente, seja porque o permanente está retido ou ausente (agenesia)."
   },
-  "51": {
+  {
+    "codigo": 51,
     "nome": "Dente em desenvolvimento",
-    "definicao": "1–2/3 de raiz formados, retido."
+    "definicao": "Entendido como qualquer dente permanente com apenas um ou dois terços da raiz formada, mas retido. Pode ser usado em laudos infantis ou adultos."
   },
-  "52": {
+  {
+    "codigo": 52,
     "nome": "Dente em erupção",
-    "definicao": ">2/3 de raiz e erupção em curso."
+    "definicao": "Entendido como qualquer dente permanente com dois terços da raiz formada, em processo de erupção, sem dente decíduo acima ou abaixo (exfoliação já ocorreu). Pode ser usado em laudos infantis ou adultos."
   },
-  "53": {
+  {
+    "codigo": 53,
     "nome": "Dente retido/impactado",
-    "definicao": "Dente retido/impactado."
+    "definicao": "Entendido como qualquer dente permanente ou decíduo que está retido, muito utilizado para terceiros molares."
   },
-  "54": {
+  {
+    "codigo": 54,
     "nome": "Dente supranumerário",
-    "definicao": "Excede número normal."
+    "definicao": "Entendido como qualquer dente que exceda o número de 32 para permanentes ou 20 para decíduos numa boca."
   },
-  "55": {
+  {
+    "codigo": 55,
     "nome": "Destruição parcial da coroa",
-    "definicao": "Perda parcial de coroa."
+    "definicao": "Entendido como qualquer destruição coronária que não seja total ou quando os laudos de cárie ou restaurações estéticas/cárie não sejam indicados."
   },
-  "56": {
+  {
+    "codigo": 56,
     "nome": "Destruição total da coroa",
-    "definicao": "Perda total de coroa."
+    "definicao": "Entendido como qualquer destruição coronária total, ou seja, não podem existir outras imagens coronárias."
   },
-  "57": {
+  {
+    "codigo": 57,
     "nome": "Desvio de septo nasal",
-    "definicao": "Septo curvo (E1)."
+    "definicao": "Utilizado no centro das cavidades nasais direita e esquerda (não aparece na primeira folha do laudo/odontograma), visualizado apenas em radiografias panorâmicas, laudado quando o septo é curvo e não uma linha óssea reta."
   },
-  "58": {
+  {
+    "codigo": 58,
     "nome": "Esclerose óssea",
-    "definicao": "Osso radiopaco reacional."
+    "definicao": "Utilizado em qualquer região da maxila ou mandíbula que apresenta osso mais radiopaco e não compatível com imagens de tórus ou sialolito. Pode ser trocado pelo diagnóstico de Condensação óssea (número 37)."
   },
-  "59": {
+  {
+    "codigo": 59,
     "nome": "Extrusão dentária",
-    "definicao": "Além do plano oclusal."
+    "definicao": "Utilizado em qualquer dente da maxila ou mandíbula que se encontra além do plano oclusal (no sentido do dente antagonista), geralmente sem dente antagonista."
   },
-  "60": {
+  {
+    "codigo": 60,
     "nome": "Fenômeno de retenção de muco no seio maxilar",
-    "definicao": "Imagem em cúpula no seio (E1)."
+    "definicao": "Utilizado quando, na radiografia panorâmica, nota-se uma imagem radiopaca em forma de cúpula dentro de qualquer seio maxilar (direito ou esquerdo)."
   },
-  "61": {
+  {
+    "codigo": 61,
     "nome": "Forramento radiolúcido ou cárie",
-    "definicao": "Radiolucidez sob restauração; considerar teste de vitalidade se grande."
+    "definicao": "Entendido como imagem radiolúcida associada a uma restauração ou coroa radiopaca, sugerindo teste de vitalidade pulpar se a imagem radiolúcida for muito grande."
   },
-  "62": {
+  {
+    "codigo": 62,
     "nome": "Fratura da coroa/raiz",
-    "definicao": "Linha radiolúcida contínua."
+    "definicao": "Entendido como imagem radiolúcida em forma contínua (normalmente uma linha radiolúcida) na coroa ou raiz."
   },
-  "63": {
+  {
+    "codigo": 63,
     "nome": "Fratura óssea",
-    "definicao": "Linhas radiolúcidas ósseas."
+    "definicao": "Entendido como imagem radiolúcida em forma contínua (normalmente uma ou várias linhas radiolúcidas, com ou sem sequestros ósseos) nos ossos da mandíbula (ramo, côndilo, corpo) ou maxila."
   },
-  "64": {
+  {
+    "codigo": 64,
     "nome": "Giroversão",
-    "definicao": "Rotação dental."
+    "definicao": "Entendido como giro (não necessariamente de 180°), qualquer dente um pouco girado, identificado como dente girovertido em radiografias periapicais, interproximais e especialmente panorâmicas."
   },
-  "65": {
+  {
+    "codigo": 65,
     "nome": "Hipercementose",
-    "definicao": "Raiz aumentada nos terços médio/apical."
+    "definicao": "Entendido como aumento do tamanho da raiz, principalmente nos terços apical e médio, comumente afetando pré-molares."
   },
-  "66": {
+  {
+    "codigo": 66,
     "nome": "Imagem radiolúcida",
-    "definicao": "Imagem radiolúcida inespecífica."
+    "definicao": "Entendido como qualquer imagem radiolúcida em dentes, ossos ou estruturas anatômicas (seios, etc.) onde nenhum outro diagnóstico possa ser utilizado. Para dentes, prefere-se outro diagnóstico radiolúcido."
   },
-  "67": {
+  {
+    "codigo": 67,
     "nome": "Imagem radiolúcida em região de furca/Sugerimos avaliação periodontal",
-    "definicao": "Radiolucidez em furca."
+    "definicao": "Entendido como imagem radiolúcida nas bifurcações ou trifurcações dos molares, normalmente em pacientes com mais perdas ósseas alveolares."
   },
-  "68": {
+  {
+    "codigo": 68,
     "nome": "Imagem radiopaca",
-    "definicao": "Imagem radiopaca inespecífica."
+    "definicao": "Entendido como qualquer imagem radiopaca em dentes, ossos ou estruturas anatômicas (seios, etc.) onde nenhum outro diagnóstico possa ser utilizado. Para dentes, prefere-se outro diagnóstico radiopaco."
   },
-  "69": {
+  {
+    "codigo": 69,
     "nome": "Imagem sugerindo displasia cementária apical",
-    "definicao": "Imagem próxima às raízes (radiolúcida/mista)."
+    "definicao": "Entendido como qualquer imagem radiolúcida, mista ou raramente apenas radiopaca, próxima às raízes dos dentes, muitas vezes lembrando lesões periapicais, mais comum em incisivos e molares inferiores."
   },
-  "70": {
+  {
+    "codigo": 70,
     "nome": "Imagem sugerindo displasia cemento-óssea focal",
-    "definicao": "Radiopaca colada ao dente."
+    "definicao": "Entendido como qualquer imagem radiopaca próxima às raízes dos dentes, muitas vezes lembrando esclerose óssea, mas colada ao dente, mais comum em pré-molares inferiores."
   },
-  "71": {
+  {
+    "codigo": 71,
     "nome": "Implante dentário",
-    "definicao": "Pino/parafuso compatível com implante."
+    "definicao": "Entendido como qualquer imagem radiopaca com aspecto de pino ou parafuso, normalmente associado a dente ausente (X) e/ou coroa protética."
   },
-  "72": {
+  {
+    "codigo": 72,
     "nome": "Instrumento endodôntico fraturado no conduto",
-    "definicao": "Lima fraturada."
+    "definicao": "Entendido como qualquer imagem radiopaca que lembra uma lima endodôntica (cheia de curvas) dentro do conduto radicular, associado ou não a cones de guta-percha e cimento endodôntico."
   },
-  "73": {
+  {
+    "codigo": 73,
     "nome": "Infra-oclusão dentária",
-    "definicao": "Abaixo do plano oclusal."
+    "definicao": "Utilizado em qualquer dente da maxila ou mandíbula que se encontra aquém (abaixo) do plano oclusal, muitas vezes associado a anquilose ou dilacerações radiculares."
   },
-  "74": {
+  {
+    "codigo": 74,
     "nome": "Lesão endo-pério/pério-endo",
-    "definicao": "Perda óssea severa associada a dente."
+    "definicao": "Entendido como perda óssea alveolar severa associada à(s) raiz(es) do(s) dente(s), normalmente com mobilidade acentuada e bolsas periodontais."
   },
-  "75": {
+  {
+    "codigo": 75,
     "nome": "Microdente",
-    "definicao": "Dente pequeno."
+    "definicao": "Utilizado em qualquer dente da maxila ou mandíbula que se encontra muito pequeno, mais comumente usado para terceiros molares."
   },
-  "76": {
+  {
+    "codigo": 76,
     "nome": "Mineralização do ligamento estiloioídeo",
-    "definicao": "Ligamento >2 cm."
+    "definicao": "Utilizado quando o ligamento estiloioídeo está aumentado (maior que 2 cm), clicado sobre o osso estilóide (direito ou esquerdo)."
   },
-  "77": {
+  {
+    "codigo": 77,
     "nome": "Mineralização endodental",
-    "definicao": "Calcificações na câmara/conduto."
+    "definicao": "Utilizado em qualquer dente da maxila ou mandíbula com câmara pulpar ou conduto radicular totalmente ou parcialmente mineralizados, frequentemente associado a traumas ou movimentação ortodôntica."
   },
-  "78": {
+  {
+    "codigo": 78,
     "nome": "Nódulo pulpar",
-    "definicao": "Calcificações pontuais intra-pulpares."
+    "definicao": "Utilizado em qualquer dente da maxila ou mandíbula que apresenta calcificações pontuais (tipo pedrinhas mineralizadas) dentro da câmara pulpar ou conduto radicular."
   },
-  "79": {
+  {
+    "codigo": 79,
     "nome": "Núcleo",
-    "definicao": "Núcleo intrarradicular."
+    "definicao": "Utilizado em qualquer dente da maxila ou mandíbula que apresenta imagem radiopaca em forma de cunha, dentro do conduto radicular, normalmente associado a coroa protética, podendo ser de material metálico, fibra de vidro ou provisório."
   },
-  "80": {
+  {
+    "codigo": 80,
     "nome": "Observar proximidade das raízes com o conduto mandibular",
-    "definicao": "Raiz próxima ao canal mandibular."
+    "definicao": "Utilizado em qualquer dente da mandíbula com raízes próximas ao conduto mandibular (nervo alveolar inferior), comumente terceiros e segundos molares inferiores."
   },
-  "81": {
+  {
+    "codigo": 81,
     "nome": "Osteite condensante",
-    "definicao": "Radiopacidade associada a dente irritado/tratado."
+    "definicao": "Entendido como qualquer imagem radiopaca próxima às raízes (especialmente o primeiro molar inferior em pacientes jovens), normalmente com cárie, restauração extensa ou tratamento endodôntico."
   },
-  "82": {
+  {
+    "codigo": 82,
     "nome": "Perda óssea alveolar horizontal",
-    "definicao": "Perda plana do osso alveolar."
+    "definicao": "Entendido como qualquer perda óssea alveolar plana próxima às raízes dos dentes, mais utilizada em casos interproximais, periapicais isoladas ou focada em um ou poucos dentes em levantamento total."
   },
-  "83": {
+  {
+    "codigo": 83,
     "nome": "Perda óssea alveolar vertical",
-    "definicao": "Perda óssea em rampa."
+    "definicao": "Entendido como qualquer perda óssea alveolar que lembra um \"escorregador de parquinho\" próxima às raízes dos dentes, mais utilizada em casos interproximais, periapicais isoladas ou focada em um ou poucos dentes em levantamento total."
   },
-  "84": {
+  {
+    "codigo": 84,
     "nome": "Perfuração da raiz",
-    "definicao": "Radiolucidez por perfuração iatrogênica."
+    "definicao": "Entendido como qualquer imagem radiolúcida na raiz que sugere perfuração por broca ou lima, usado com baixa frequência, pois implica erro do dentista."
   },
-  "85": {
+  {
+    "codigo": 85,
     "nome": "Pôntico",
-    "definicao": "Coroa protética sem suporte direto por dente."
+    "definicao": "Entendido como qualquer coroa protética plástica ou metálica sem sustentação direta por dente, suportada por outros dentes pilares, com ou sem ausência dentária."
   },
-  "86": {
+  {
+    "codigo": 86,
     "nome": "Raiz residual/resto radicular",
-    "definicao": "Remanescente radicular."
+    "definicao": "Entendido como qualquer pedaço de dente com destruição total da coroa e parte da raiz, intraósseo ou não."
   },
-  "88": {
+  {
+    "codigo": 88,
     "nome": "Sugere-se comparar radiografias anteriores",
-    "definicao": "Comparar evolução."
+    "definicao": "Utilizado em casos de tratamentos endodônticos ou pós-cirúrgicos em processo cicatricial periapical ou ósseo, para estudar a evolução da cura ou resultado do procedimento."
   },
-  "89": {
+  {
+    "codigo": 89,
     "nome": "Sugere-se pouco espaço para erupção",
-    "definicao": "Redução de espaço eruptivo."
+    "definicao": "Utilizado quando um dente ainda não erupcionou e os dentes adjacentes reduziram o espaço necessário para erupção, mais usado em crianças."
   },
-  "90": {
+  {
+    "codigo": 90,
     "nome": "Sugere-se teste de vitalidade pulpar",
-    "definicao": "Indicar teste de vitalidade se aplicável."
+    "definicao": "Utilizado quando um dente possui cárie ou restauração extensa, sofreu traumatismo, apresenta aumento do espaço pericementário e não apresenta tratamento endodôntico."
   },
-  "91": {
+  {
+    "codigo": 91,
     "nome": "Sugere-se, a critério clínico, avaliação morfológica condilar",
-    "definicao": "Alteração morfológica condilar."
+    "definicao": "Entendido como qualquer alteração morfológica condilar (erosão, aplainamento, osteófito, etc.)."
   },
-  "92": {
+  {
+    "codigo": 92,
     "nome": "Tórus",
-    "definicao": "Radiopacidades junto a caninos/pré-molares inferiores."
+    "definicao": "Entendido como imagens radiopacas próximas às raízes dos caninos e pré-molares inferiores, melhor visualizadas em radiografias periapicais e interproximais."
   },
-  "93": {
+  {
+    "codigo": 93,
     "nome": "Trauma oclusal (avalie oclusão)",
-    "definicao": "Radiolucidez oclusal em coroa metálica."
+    "definicao": "Entendido como qualquer imagem radiolúcida na região de oclusão da coroa metálica protética, normalmente oriunda de desgaste oclusal."
   },
-  "94": {
+  {
+    "codigo": 94,
     "nome": "Velamento do seio maxilar (sinusite?)",
-    "definicao": "Velamento evidente no seio."
+    "definicao": "Utilizado quando, na radiografia panorâmica, nota-se imagem radiopaca bastante evidente dentro de qualquer seio maxilar (direito ou esquerdo)."
   },
-  "95": {
+  {
+    "codigo": 95,
     "nome": "Rizogênese incompleta",
-    "definicao": "Raiz em formação."
+    "definicao": "Utilizado quando o dente permanente ainda não completou a formação total da raiz, mais usado em laudos infantis."
   },
-  "96": {
+  {
+    "codigo": 96,
     "nome": "Rizólise fisiológica inicial",
-    "definicao": "Reabsorção em decíduo até terço médio."
+    "definicao": "Entendido como qualquer reabsorção radicular em dente decíduo dentro da cronologia habitual ou, mesmo atrasada, sem lesão periapical ou cárie causando a reabsorção, reabsorvendo até o terço apical ao médio."
   },
-  "97": {
+  {
+    "codigo": 97,
     "nome": "Rizólise fisiológica avançada",
-    "definicao": "Reabsorção em decíduo do terço médio ao cervical."
+    "definicao": "Entendido como qualquer reabsorção radicular em dente decíduo dentro da cronologia habitual ou, mesmo atrasada, sem lesão periapical ou cárie causando a reabsorção, reabsorvendo do terço médio ao cervical."
   },
-  "98": {
+  {
+    "codigo": 98,
     "nome": "Rizectomia",
-    "definicao": "Perda de uma raiz em multirradiculado."
+    "definicao": "Entendido quando um dente (especialmente molares) com duas ou mais raízes perde uma raiz, mas se mantém no processo alveolar por uma ou outras raízes."
   },
-  "99": {
+  {
+    "codigo": 99,
     "nome": "Odontosecção",
-    "definicao": "Seccionamento cirúrgico de raízes."
+    "definicao": "Entendido quando um dente (especialmente molares) é seccionado cirurgicamente, e as raízes, antes unidas pela mesma coroa, agora se apresentam separadas."
   },
-  "100": {
+  {
+    "codigo": 100,
     "nome": "Ausência de tratamento endodôntico",
-    "definicao": "Câmara/coroa restaurada sem canal quando deveria haver."
+    "definicao": "Entendido quando um dente com coroa, núcleo ou outro material restaurador na câmara pulpar não apresenta tratamento endodôntico, mas deveria possuir."
   },
-  "101": {
+  {
+    "codigo": 101,
     "nome": "Dilaceração radicular",
-    "definicao": "Curvatura anormal da raiz."
+    "definicao": "Entendido como uma deformidade ou curvatura anormal na raiz do dente, geralmente detectada em radiografias periapicais ou panorâmicas, podendo estar associada a traumatismos, interferências durante a formação dentária ou fatores genéticos."
   },
-  "102": {
+  {
+    "codigo": 102,
     "nome": "Acessório estético/piercing",
-    "definicao": "Imagem metálica em tecidos moles orais."
+    "definicao": "Entendido como imagem radiopaca de aspecto metálico, geralmente localizada em tecidos moles orais (língua, lábio ou bochecha), representando um piercing ou acessório estético, visualizado em radiografias panorâmicas ou periapicais."
   },
-  "103": {
-    "nome": "Cárie incipiente",
-    "definicao": "Radiolucidez no esmalte (início)."
+  {
+    "codigo": 103,
+    "nome": "Código inválido - duplicado",
+    "definicao": "Código 103 não consta nos registros oficiais. Verifique o manual de diagnósticos."
   },
-  "104": {
+  {
+    "codigo": 104,
     "nome": "Enxerto ósseo",
-    "definicao": "Material de enxerto em defeito ósseo."
+    "definicao": "Entendido como imagem radiopaca ou mista (radiolúcida/radiopaca) em região de defeito ósseo, indicando a presença de material de enxerto ósseo utilizado para regeneração ou reconstrução óssea, geralmente associado a procedimentos cirúrgicos como extrações ou implantes."
   },
-  "106": {
+  {
+    "codigo": 106,
     "nome": "Presença de aparelho ortodôntico expansor palatino",
-    "definicao": "Expansor palatino."
+    "definicao": "Entendido como imagem radiopaca na região do palato, indicando a presença de um aparelho ortodôntico expansor palatino, utilizado para correção de discrepâncias transversais da maxila, visualizado em radiografias panorâmicas ou oclusais."
   },
-  "107": {
+  {
+    "codigo": 107,
     "nome": "Presença de placa metálica e/ou parafuso contenção óssea",
-    "definicao": "Fixação óssea com placa/parafusos."
+    "definicao": "Entendido como imagens radiopacas de aspecto metálico, representando placas ou parafusos utilizados para estabilização óssea em cirurgias ortognáticas, fraturas ou reconstruções, geralmente visualizados em radiografias panorâmicas ou tomografias."
   },
-  "108": {
+  {
+    "codigo": 108,
     "nome": "Vide laudo descritivo",
-    "definicao": "Diagnóstico aberto."
+    "definicao": "Diagnóstico \"aberto\" onde o dentista/radiologista pode descrever uma imagem ou condição sem diagnóstico predefinido, permitindo a inclusão de observações específicas no laudo descritivo."
   }
-}
+]
