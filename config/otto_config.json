@@ -2,7 +2,7 @@
   "restricao_frases": false,
   "forcar_geracao_completa": true,
   "validacao_coerencia": "ajuste_morfologico_apenas",
-  "fusao_paragrafos": false,
+  "fusao_paragrafos": true,
   "preservar_bloco_original": true,
   "frases_complementares": {
     "imutaveis": true,
