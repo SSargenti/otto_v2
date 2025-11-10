@@ -1,3 +1,7 @@
+- Observa-se, de forma generalizada, cristas ósseas alveolares com morfologia compatível com a normalidade. A critério clínico, sugere-se avaliação periodontal complementar.
+- Recomenda-se análise da adaptação marginal das restaurações presentes, com atenção especial às áreas interproximais.
+- As lesões cariosas limitadas ao esmalte podem não ser evidentes na radiografia, até que aproximadamente 30% a 40% de desmineralização tenha ocorrido. Recomenda-se exame clínico detalhado de todas as superfícies oclusais e proximais para avaliação completa.
+- Vários fenômenos morfológicos como sulcos e fissuras profundas, sobreposição de imagem (especialmente em proximais), efeito de burnout cervical, efeito de Mach band, e anomalias dentárias como depressões hipoplásicas ou concavidades por desgaste, podem ser confundidos com lesões cariosas ou mascarar outras alterações. A avaliação clínica cuidadosa das superfícies dentárias é fundamental.
 - O exame radiográfico é complementar à avaliação clínica, sendo o Cirurgião-Dentista (CD) o profissional apto a emitir o diagnóstico definitivo e o plano de tratamento.
 - Sugere-se acompanhamento clínico-radiográfico periódico dos achados descritos e registrados no odontograma.
-- Na panorâmica, a avaliação radicular tem caráter geral, podendo não evidenciar detalhes finos, que são melhor observados em exames periapicais.
+- Em caso de dúvidas adicionais, recomenda-se contato com a clínica de radiologia responsável.
